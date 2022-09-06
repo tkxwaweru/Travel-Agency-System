@@ -1,0 +1,95 @@
+*{
+  font-family: sans-serif;
+}
+.header-container{
+  background-image: url("Index-Images/mombasa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  image-resolution: 1080px;
+  height: 600px;
+}
+.header-contents{
+  background-color: rgba(0,0,0,0.2);
+  margin: 0;
+  margin-bottom: 40px;
+  display: block;
+  background-size: cover;
+}
+.header-container a{
+  margin-right: 20px;
+  margin-top: 80px;
+  font-size: 20px;
+}
+.links{
+  text-decoration: none;
+  display: block;
+  margin-left: 20px;
+  float: right;
+  color: #d8aa02;
+}
+.logo{
+  width: 100px;
+  display: inline-block;
+}
+a:hover{
+  text-decoration: underline;
+  text-decoration-color: #d8aa02;
+  text-decoration-thickness: 2px;
+}
+.description{
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 60px;
+  text-align: center;
+  padding-top: 90px;
+}
+h1{
+  color:rgb(161, 7, 7);
+  font-size: 50px;
+}
+h2{
+  color: #228B22;
+}
+.book-button{
+  text-decoration: none;
+  background-color:rgb(212, 212, 5);
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  border-radius: 10px;
+  transition: background-color, color 0.3s;
+}
+.book-button:hover{
+  background-color: #228B22;
+  color: white;
+  text-decoration: none;
+}
+.benefits-list{
+  display: block;
+  align-items: center;
+  margin-top: 50px;
+}
+.benefit{
+  display: inline-block;
+  width: 20%;
+  margin-right: 30px;
+  vertical-align: top;
+  margin-left: 30px;
+}
+.benefit-icon{
+  margin-left: 100px;
+}
+.benefit h3{
+  color: #228B22;
+  transition: color 0.3s;
+}
+.benefit h3:hover{
+  color: rgb(161, 7, 7);
+}
+.benefit p{
+  color:rgb(109, 108, 108);
+}
+
