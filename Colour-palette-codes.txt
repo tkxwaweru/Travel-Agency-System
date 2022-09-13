@@ -1,0 +1,9 @@
+COLOUR PALETTE:
+--------------
+1. #da9970 - nude brown
+2. #ffcc66 - cream
+3. #66cdaa - sea blue
+4. #23aeba - turquiose
+5. #295367 - dull blue
+6. #800000 - dull maroon
+7. #2e8b57 - sea green
