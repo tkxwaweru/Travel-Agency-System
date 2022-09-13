@@ -1,0 +1,63 @@
+.login-background{
+  background-image: url("Index-Images/mombasa.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  padding: 200px;
+}
+.login-form{
+  background-color: white;
+  border-color: white;
+  border-radius: 20px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 400px;
+  font-family: Georgia, serif;
+}
+.title{
+  color: #da9970;
+  text-decoration: underline;
+  text-decoration-color: #66cdaa;
+  text-align: center;
+}
+.label{
+  display: block;
+  font-size: 20px;
+  color: #66cdaa;
+  margin-bottom: 2px; 
+}
+.input-box{
+  font-family: Georgia, serif;
+  color:rgb(158, 158, 158);
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: gray;
+  width: 360px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+.input-box:valid{
+  border-color: #da9970;
+}
+.login-button{
+  font-size: 15px;
+  font-family: Georgia, serif;
+  padding: 5px;
+  margin-right: 20px;
+  border: 1px solid #da9970;
+  border-radius: 5px;
+  background-color: #23aeba;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.login-button:hover{
+border-color: #23aeba;
+background-color: #2E8B57;
+color: white;
+}
+.login-button:active{
+opacity: 0.4;
+}
