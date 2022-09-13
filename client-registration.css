@@ -1,0 +1,94 @@
+.registration-background{
+  background-image: url("Index-Images/mombasa.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 30px;
+}
+.registration-form{
+  background-color: white;
+  border-color: white;
+  border-radius: 20px;
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 400px;
+  font-family: Georgia, serif;
+}
+.title{
+  color: #da9970;
+  text-decoration: underline;
+  text-decoration-color: #66cdaa;
+  text-align: center;
+}
+.instructions{
+  font-size: 16px;
+  font-family: Georgia, serif;
+  color: rgb(158, 158, 158);
+}
+.label{
+  display: block;
+  font-size: 20px;
+  color: #66cdaa;
+  margin-bottom: 2px;
+  
+}
+.gender{
+  font-size: 20px;
+  color: #da9970;
+}
+.input-box{
+  font-family: Georgia, serif;
+  color:rgb(158, 158, 158);
+  font-size: 20px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: gray;
+  width: 360px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+.input-box:valid{
+  border-color: #da9970;
+}
+.cancel-button{
+  font-size: 15px;
+  font-family: Georgia, serif;
+  padding: 5px;
+  margin-right: 35px;
+  border: 1px solid #23aeba;
+  border-radius: 5px;
+  background-color: white;
+  color: #da9970;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.cancel-button:hover{
+  border-color: #da9970;
+  background-color: #800000;
+  color: white;
+
+}
+.cancel-button:active{
+  opacity: 0.4;
+}
+.register-button{
+  font-size: 15px;
+  font-family: Georgia, serif;
+  padding: 5px;
+  margin-right: 20px;
+  border: 1px solid #da9970;
+  border-radius: 5px;
+  background-color: #23aeba;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+.register-button:hover{
+border-color: #23aeba;
+background-color: #2E8B57;
+color: white;
+}
+.register-button:active{
+opacity: 0.4;
+}
