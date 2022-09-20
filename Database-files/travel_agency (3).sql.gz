@@ -1,0 +1,246 @@
+-- phpMyAdmin SQL Dump
+-- version 5.1.3
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1
+-- Generation Time: Sep 20, 2022 at 10:50 AM
+-- Server version: 10.4.24-MariaDB
+-- PHP Version: 8.0.18
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `travel_agency`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `accommodation`
+--
+
+CREATE TABLE `accommodation` (
+  `accommodation_id` int(10) NOT NULL,
+  `hotel_id` varchar(255) NOT NULL,
+  `airbnb_id` varchar(255) NOT NULL,
+  `region` varchar(255) NOT NULL,
+  `address` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `agent review`
+--
+
+CREATE TABLE `agent review` (
+  `agent_review_id` int(10) NOT NULL,
+  `client_id` int(10) NOT NULL,
+  `client_rating` int(10) NOT NULL,
+  `client_email` varchar(255) NOT NULL,
+  `comment` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `agents`
+--
+
+CREATE TABLE `agents` (
+  `agent_id` int(10) NOT NULL,
+  `agent_fname` varchar(255) NOT NULL,
+  `agent_lname` varchar(255) NOT NULL,
+  `agent_phonenumber` int(12) NOT NULL,
+  `agent_email` varchar(255) NOT NULL,
+  `agent_status` varchar(255) NOT NULL,
+  `agent_code` int(10) NOT NULL,
+  `agent_rating` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `clients`
+--
+
+CREATE TABLE `clients` (
+  `client_id` int(10) NOT NULL,
+  `client_fname` varchar(255) NOT NULL,
+  `client_lname` varchar(255) NOT NULL,
+  `age` int(10) NOT NULL,
+  `sex` varchar(255) NOT NULL,
+  `phone_number` int(12) NOT NULL,
+  `client_email` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `payments`
+--
+
+CREATE TABLE `payments` (
+  `payment_id` int(10) NOT NULL,
+  `client_id` int(10) NOT NULL,
+  `payment_type` varchar(255) NOT NULL,
+  `amount` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `payment type`
+--
+
+CREATE TABLE `payment type` (
+  `payment_type_id` int(10) NOT NULL,
+  `type` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `promotions`
+--
+
+CREATE TABLE `promotions` (
+  `promotion_id` int(10) NOT NULL,
+  `offer_code` varchar(255) NOT NULL,
+  `offer_name` varchar(255) NOT NULL,
+  `active_from` date NOT NULL,
+  `active_to` date NOT NULL,
+  `percentage_deduction` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `service_review`
+--
+
+CREATE TABLE `service_review` (
+  `service_review_id` int(10) NOT NULL,
+  `client_id` int(10) NOT NULL,
+  `client_rating` int(10) NOT NULL,
+  `client_email` varchar(255) NOT NULL,
+  `comment` text NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `accommodation`
+--
+ALTER TABLE `accommodation`
+  ADD PRIMARY KEY (`accommodation_id`);
+
+--
+-- Indexes for table `agent review`
+--
+ALTER TABLE `agent review`
+  ADD PRIMARY KEY (`agent_review_id`);
+
+--
+-- Indexes for table `agents`
+--
+ALTER TABLE `agents`
+  ADD PRIMARY KEY (`agent_id`);
+
+--
+-- Indexes for table `clients`
+--
+ALTER TABLE `clients`
+  ADD PRIMARY KEY (`client_id`);
+
+--
+-- Indexes for table `payments`
+--
+ALTER TABLE `payments`
+  ADD PRIMARY KEY (`payment_id`);
+
+--
+-- Indexes for table `payment type`
+--
+ALTER TABLE `payment type`
+  ADD PRIMARY KEY (`payment_type_id`);
+
+--
+-- Indexes for table `promotions`
+--
+ALTER TABLE `promotions`
+  ADD PRIMARY KEY (`promotion_id`);
+
+--
+-- Indexes for table `service_review`
+--
+ALTER TABLE `service_review`
+  ADD PRIMARY KEY (`service_review_id`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `accommodation`
+--
+ALTER TABLE `accommodation`
+  MODIFY `accommodation_id` int(10) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `agent review`
+--
+ALTER TABLE `agent review`
+  MODIFY `agent_review_id` int(10) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `agents`
+--
+ALTER TABLE `agents`
+  MODIFY `agent_id` int(10) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `clients`
+--
+ALTER TABLE `clients`
+  MODIFY `client_id` int(10) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `payments`
+--
+ALTER TABLE `payments`
+  MODIFY `payment_id` int(10) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `payment type`
+--
+ALTER TABLE `payment type`
+  MODIFY `payment_type_id` int(10) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `promotions`
+--
+ALTER TABLE `promotions`
+  MODIFY `promotion_id` int(10) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT for table `service_review`
+--
+ALTER TABLE `service_review`
+  MODIFY `service_review_id` int(10) NOT NULL AUTO_INCREMENT;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
