@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Mr+Dafoe&display=swap');
+
+*{
+    font-family: 'Kalam';
+}
+body{
+    background-image: url(bg.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.information{
+    display: flex;
+}
+.personal-info{
+    width: 30%;
+    margin-left: 100px;
+    
+}
+.flight-information{
+    width: 30%;
+    margin-left: 10px;
+}
+.hotel{
+    width: 30%;
+}
+
+#input-text{
+    font-family: Georgia, serif;
+    color:rgb(158, 158, 158);
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: gray;
+    width: 250px;
+    height: 35px;
+    transition: all 0.3s ease;
+  }
+  li{
+    list-style-type: none;
+  }
+  h2{
+    margin-left: 36%;
+  }
+  .button{
+    font-size: 20px;
+    font-family: Georgia, serif;
+    padding: 5px;
+    margin-right: 20px;
+    border: 1px solid #da9970;
+    border-radius: 5px;
+    background-color: #23aeba;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    margin-left: 80%;
+  }
+  .button:hover{
+  border-color: #23aeba;
+  background-color: #2E8B57;
+  color: white;
+  }

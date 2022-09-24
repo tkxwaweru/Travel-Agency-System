@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Make Booking</title>
+		<link rel="stylesheet" href="bookingRequest.css">
+	</head>
+	<body>
+		<form action="" class="booking-request-form">
+            <h2>BOOKING REQUEST FORM</h2>
+            <div class="information">
+
+            <div class="personal-info">
+                <H4>PERSONAL INFORMATION</H4>
+                    <label for="fname">First Name</label><br>
+                    <input type="text" name="fname" id="input-text" placeholder="Enter Your First Name" required><br>
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" name="lname" id="input-text" placeholder="Enter Your Last Name" required><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="input-text" placeholder="Enter Your Email" required><br>
+                    <label for="phone-number">Phone Number</label><br>
+                    <input type="number" name="phone-number" id="input-text" placeholder="Enter Phone Number" required><br>
+                    <label for="identification">ID/Passport Number</label><br>
+                    <input type="text" name="identification" id="input-text" placeholder="Enter ID/Passport Number" required><br>
+                
+            </div>
+            <div class="flight-information">
+                <h4>FLIGHT INFORMATION</h4>
+                    <label for="flight-type">Type Of Trip</label><br>
+                    
+                        <label for="round-trip">Round Trip</label>
+                        <input type="radio" name="flight-type" value="Round-trip">
+                    
+                        <label for="one-way">One Way</label>
+                        <input type="radio" name="flight-type" value="One-way"><br><br>
+                    <label for="destination">Flying From</label><br>
+                    <input type="text" name="destination" id="input-text" placeholder="City from?" required><br>
+                    <label for="destination">Flying To</label><br>
+                    <input type="text" name="destination" id="input-text" placeholder="City to?" required><br>
+                    <label for="depart">Depart Date</label><br>
+                    <input type="date" name="depart" id="input-text" required><br>
+                    <label for="return">Return Date</label><br>
+                    <input type="date" name="return" id="input-text" required><br>
+                    <label for="class">Travel Class</label><br>
+                    <select name="class"  id="input-text">
+                        <option value="1st Class">1st Class</option>
+                        <option value="Business">Business Class</option>
+                        <option value="Economy">Economy Class</option>
+                    </select><br>
+                    <label for="adults">Adults (18+ yrs)</label><br>
+                    <input type="number" name="adults" placeholder="How many adults?" id="input-text"><br>
+                    <label for="children">Children (4-17 yrs)</label><br>
+                    <input type="number" name="children" placeholder="How many children?" id="input-text"><br>
+                    <label for="infants">Infants (0-3 yrs)</label><br>
+                    <input type="number" name="infants" placeholder="How many infants?" id="input-text"><br>
+                
+            </div>
+            <div class="hotel">
+                <h4>ACCOMODATION AND TRANSPORT</h4>
+                    <label for="accomodation-type">Accomodation Type</label><br>
+                    <select name="accomodation-type" id="input-text">
+                        <option value="AirBnB">AirBnB</option>
+                        <option value="Hotel">Hotel</option>
+                    </select><br>
+                    <label for="rooms">Rooms</label><br>
+                    <select name="rooms" id="input-text">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select><br>
+                    <label for="type-of-room">Type of Room</label><br>
+                    <select name="type-of-room"  id="input-text">
+                        <option value="Standard">Standard</option>
+                        <option value="Executive">Executive</option>
+                    </select><br>
+                    <label for="food">Do you want: </label><br>
+                    <select name="food"  id="input-text">
+                        <option value="breakfast and lunch">Breakfast & Lunch</option>
+                        <option value="breakfast and dinner">Breakfast & Dinner</option>
+                        <option value="breakfast, lunch and dinner">Breakfast, Lunch and Dinner</option>
+                    </select><br>
+                    <label for="transport">Mode of Transport</label><br>
+                    <select name="transport" id="input-text">
+                        <option value="Taxi">Taxi</option>
+                        <option value="Van">Van</option>
+                    </select><br><br>
+                    <label for="type-of-bed">Type of Bed</label><br>
+                        <label for="single-bed">Single Bed</label>
+                        <input type="radio" name="type-of-bed" value="Single">
+                        <label for="double-bed">Double Bed</label>
+                        <input type="radio" name="type-of-bed"  value="Double"><br><br>
+                    <label for="hotel-type">Accomodation Stars</label><br>
+                    <label for="hotel-type">1-Star</label>
+                    <input type="radio" value="1" name="hotel-type">
+                    <label for="hotel-type">2-Star</label>
+                    <input type="radio" value="2" name="hotel-type">
+                    <label for="hotel-type">3-Star</label>
+                    <input type="radio" value="3" name="hotel-type">
+                    <label for="hotel-type">4-Star</label>
+                    <input type="radio" value="4" name="hotel-type">
+                    <label for="hotel-type">5-Star</label>
+                    <input type="radio" value="5" name="hotel-type"><br>
+            </div>
+        </div>
+        <input type="submit" value="MAKE REQUEST" class="button" name="make-request">
+        </form>
+	</body>
+</html>
