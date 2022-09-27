@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Mr+Dafoe&display=swap');
+
+*{
+    font-family: 'Kalam';
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+  width:500px;
+  height:780px;
+  position:relative;
+  margin:2% auto;
+  background: #52372d;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.button-box{
+  width:500px;
+  margin-left:-22px;
+  display: flex;
+  position:relative;
+  box-shadow: 0 0 20px 9px #ff61241f;
+  border-radius: 30px
+}
+.btn1{
+  width: 40%;
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  background: #F3C693;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+}
+
+
+#input-text{
+  width: 80%;
+  padding:10px 0;
+  margin:5px 0;
+  border-left:0;
+  border-top:0;
+  border-right:0;
+  border-bottom: 1px solid #999;
+  outline:none;
+  background: transparent;
+}
+  li{
+    list-style-type: none;
+  }
+  h2{
+    margin-left: 42%;
+  }
+

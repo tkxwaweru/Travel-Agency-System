@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Book a Flight</title>
+		<link rel="stylesheet" href="flight-info.css">
+	</head>
+	<body>
+            <h2>BOOK A FLIGHT</h2>
+             
+            <div class="container">
+                
+                <form action="" class="flight-info" id="flight">
+                    <h4>FLIGHT INFORMATION</h4>
+                    <label for="flight-type">Type Of Trip</label><br>
+                    
+                        <label for="round-trip">Round Trip</label>
+                        <input type="radio" name="flight-type" value="Round-trip">
+                    
+                        <label for="one-way">One Way</label>
+                        <input type="radio" name="flight-type" value="One-way"><br><br>
+                    <label for="destination">Flying From</label><br>
+                    <input type="text" name="destination" id="input-text" placeholder="City from?" required><br>
+                    <label for="destination">Flying To</label><br>
+                    <input type="text" name="destination" id="input-text" placeholder="City to?" required><br>
+                    <label for="depart">Depart Date</label><br>
+                    <input type="date" name="depart" id="input-text" required><br>
+                    <label for="return">Return Date</label><br>
+                    <input type="date" name="return" id="input-text" required><br>
+                    <label for="class">Travel Class</label><br>
+                    <select name="class"  id="input-text">
+                        <option value="1st Class">1st Class</option>
+                        <option value="Business">Business Class</option>
+                        <option value="Economy">Economy Class</option>
+                    </select><br>
+                    <label for="adults">Adults (18+ yrs)</label><br>
+                    <input type="number" name="adults" placeholder="How many adults?" id="input-text"><br>
+                    <label for="children">Children (4-17 yrs)</label><br>
+                    <input type="number" name="children" placeholder="How many children?" id="input-text"><br>
+                    <label for="infants">Infants (0-3 yrs)</label><br>
+                    <input type="number" name="infants" placeholder="How many infants?" id="input-text"><br>
+
+                        <h3>BOOK FLIGHT ONLY?</h3>
+                        <button class="btn1" id="flight-booking">MAKE BOOKING</button>
+                    <h3>WOULD YOU LIKE A HOTEL?</h3>
+                        <a href="hotel-info.html" class="btn2">Hotel and Accomodation</a>
+                   
+                    
+
+                </form>
+                
+                
+        </div>
+
+	</body>
+</html>
+
