@@ -15,7 +15,7 @@ body{
   height:600px;
   position:relative;
   margin:2% auto;
-  background: #52372d;
+  background: #23aeba  ;
   padding: 10px;
   font-size: 20px;
   color: white;
@@ -34,7 +34,7 @@ body{
   width: 37%;
   padding: 10px;
   margin: auto;
-  background: #F3C693;
+  background: #66cdaa ;
   outline: none;
   border-radius: 30px;
   font-size: 17px;
@@ -46,7 +46,7 @@ body{
   width: 37%;
   padding: 10px;
   margin: auto;
-  background: #F3C693;
+  background: #66cdaa ;
   outline: none;
   border-radius: 30px;
   font-size: 17px;
@@ -64,9 +64,12 @@ body{
   border-left:0;
   border-top:0;
   border-right:0;
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid rgb(20, 9, 9);
   outline:none;
   background: transparent;
+}
+::placeholder{
+  color: white;
 }
 
 h2{
