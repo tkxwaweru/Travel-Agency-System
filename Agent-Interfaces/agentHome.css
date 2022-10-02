@@ -1,7 +1,16 @@
-/*Main CSS*/
-
+/*Main CSS
+1. #da9970 - nude brown
+2. #ffcc66 - cream
+3. #66cdaa - sea blue
+4. #23aeba - turquiose
+5. #295367 - dull blue
+6. #800000 - dull maroon
+7. #2e8b57 - sea green*/
 
 /*Login Signup Page*/
+.row >header{
+    background-color: #295367;
+}
 
 a:focus,a:hover,a{
     outline:none;
@@ -49,9 +58,8 @@ li,ul{
 .login-header .nav-tabs > li.active > a,
 .login-header .nav-tabs > li.active > a:focus,
 .login-header .nav-tabs > li.active > a:hover {
-    background-color: transparent;
     border: none;
-    color: #fff;
+    color: #295367;
 }
 
 .login-header .nav-tabs > li > a {
@@ -61,7 +69,7 @@ li,ul{
     font-weight: 500;
     line-height: 48px;
     padding: 15px 30px;
-    color: #fff;
+    color: #295367;
 }
 
 .login-header .nav-tabs {
@@ -74,7 +82,7 @@ li,ul{
 
 .login-header .nav > li > a:focus,
 .login-header .nav > li > a:hover {
-    background: none;
+    background-color: #5584ff;
     text-decoration: none;
 }
 
@@ -186,7 +194,7 @@ li,ul{
 }
 
 #navigation {
-    background: #0e1a35;
+    background: #295367;
 }
 
 #navigation {
@@ -356,7 +364,7 @@ header {
 .navi a {
     border-bottom: 1px solid #0d172e;
     border-top: 1px solid #0d172e;
-    color: #ffffff;
+    color: black;
     display: block;
     font-size: 17px;
     font-weight: 500;
@@ -370,13 +378,13 @@ header {
 }
 
 .navi .active a {
-    background: #122143;
+    background: #2e8b57;
     border-left: 5px solid #5584ff;
     padding-left: 15px;
 }
 
 .navi a:hover {
-    background: #431212 none repeat scroll 0 0;
+    background: #2e8b57 none repeat scroll 0 0;
     border-left: 5px solid #5584ff;
     display: block;
     padding-left: 15px;

@@ -1,0 +1,27 @@
+.form{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 50px;
+}
+.flight{
+    width: 50%;
+}
+.hotel{
+    width: 50%;
+    margin-left: 60%;
+}
+.two-forms{
+    display: inline;
+    width: 80%;
+    display: flex;
+    margin-left: 10%;
+}
+.client-info{
+    width: 50%;
+    
+}
+.invoice{
+    width: 50%;   
+    padding-left: 250px;
+}
