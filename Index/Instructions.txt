@@ -1,0 +1,11 @@
+You shall find the video used in the homepage here(our shared google drive): 
+https://drive.google.com/drive/folders/1Qjvs5gPT2nBjr-1Nz5fqdyxtynuBKOKH
+
+Instructions:
+1. Navigate to the google drive folder and download the video "background-video.mp4"
+
+2. Save the video in the following directory: "C:\xampp\htdocs\Travel-Agency-System-main/Index/Images"
+   (this may vary depending on how you have named your folders)  
+
+*I recommend you save this video in your local repository on your device and save a back-up
+ in another folder e.g. "videos" so as to avoid delays or losing the video when updating your local repository 
