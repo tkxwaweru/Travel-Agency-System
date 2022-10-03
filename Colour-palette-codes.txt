@@ -7,3 +7,5 @@ COLOUR PALETTE:
 5. #295367 - dull blue
 6. #800000 - dull maroon
 7. #2e8b57 - sea green
+8. #a9a9a9 - dull blue-gray
+9. #fcf0d4 - papaya whip
