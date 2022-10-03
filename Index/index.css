@@ -1,0 +1,335 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/*---------------------------Homepage header styling-------------------------------------------*/
+.header-container{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3));
+  position: relative;
+  padding: 0 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav{
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px 8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo{
+  width: 100px;
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+  cursor: pointer;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  transition: all 0.5s;
+}
+nav ul li a:hover{
+  color: #ffcc66;
+  text-decoration: underline;
+  text-decoration-color: #ffcc66;
+}
+.description{
+  text-align: center;
+}
+.description h1{
+  font-size: 100px;
+  color: white;
+  font-weight: 600;
+  transition: all 0.5s;
+}
+.description h1:hover{
+ -webkit-text-stroke: 2px white;
+ color: transparent;
+}
+.description h2{
+  font-size: 30px;
+  color: white;
+  font-weight: 100;
+}
+.description a{
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 24px;
+  border: 2px solid white;
+  padding: 14px 70px;
+  border-radius: 50px;
+  margin-top: 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.description a:hover{
+  color: white;
+  background-color: #66cdaa;
+  border: #66cdaa;
+}
+.description a:active{
+  opacity: 0.5;
+}
+.background-video{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+  .background-video{
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9){
+  .background-video{
+    width: auto;
+    height: 100%;
+  }
+}
+
+/*--------------------------------Benefits list styling----------------------------------------*/
+.benefits-list{
+  display: block;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+}
+.benefit{
+  display: inline-block;
+  width: 20%;
+  margin-right: 30px;
+  vertical-align: top;
+  margin-left: 30px;;
+}
+.benefit-icon{
+  margin-left: 100px;
+}
+.benefit h3{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #23aeba;
+  transition: color 0.3s;
+  padding: 15px;
+  transition: transform 0.8s;
+  margin-bottom: 0;
+}
+.benefit h3:hover{
+  transform: scale(1.15);
+}
+.benefit p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:#a9a9a9;
+  padding: 8px;
+}
+.benefit-2{
+  margin-top: 20px;
+}
+.benefit-4{
+  margin-top: 20px;
+}
+/*--------------------------------Testimonials styling----------------------------------------*/
+.testimonials{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 40px 0;
+  background: #fcf0d4;
+  color: #a9a9a9;
+  text-align:center;
+}
+.inner h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #2e8b57;
+  font-size: 50px;
+  font-weight: 450;
+}
+.inner{
+  max-width: 1200px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.border{
+  width: 160px;
+  height: 5px;
+  margin: 26px auto;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.col{
+  flex: 33.33%;
+  max-width: 33.33%;
+  box-sizing: border-box;
+  padding: 15px;
+}
+.testimonial{
+  background: white;
+  padding: 30px;
+  height: 400px;
+}
+.testimonial img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.name{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
+.testimonial p{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.stars{
+  color: #ffcc66;
+  margin-bottom: 20px;
+}
+/*---------------------------------Attractions gallery styling-------------------------*/
+.gallery-container{
+  max-width: 1200px;
+  margin: auto;
+  background-color: white;
+  overflow: hidden;
+}
+.gallery-container h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-top: 35px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #da9970;
+  font-size: 50px;
+  font-weight: 450;
+}
+.gallery-item{
+  margin: 5px;
+  border: 0.5px solid #a9a9a9;
+  float: left;
+  width: 390px;
+  overflow: hidden;
+}
+.gallery-item img{
+  width: 100%;
+  height: 275px;
+  transition: transform 2s;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.gallery-image{
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.gallery-description{
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:  #da9970;
+  margin-top: 0;
+  background-color: white;
+  padding: 15px;
+  text-align: center;
+}
+.gallery-item:hover img{
+  transform: scale(1.5);
+}
+.attractions-link{
+  margin-top: 35px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+.attractions-link a{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 25px;
+  text-decoration: none;
+  background-color: white;
+  padding: 14px 50px;
+  border: 2px solid black;
+  color: black;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.attractions-link a:hover{
+  color: #da9970;
+  border-color: #da9970;
+}
+.attractions-link a:active{
+  opacity: 0.5;
+}
+/*----------------------------------------Footer styling--------------------------------------------*/
+.footer{
+  background-color: #fcf0d4;
+  padding: 100px 0;
+  padding-left: 20px;
+}
+.footer-col{
+  width: 25%;
+  padding:0 15px;
+
+}
+.footer-col h4{
+  font-size: 18px;
+  color: #2e8b57;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+  font-weight: 600;
+  position: relative;
+}
+.footer-col h4::before{
+  content:'';
+  position:absolute;
+  left: 0;
+  bottom: -10px;;
+  background-color: #da9970 ;
+  height:2px ;
+  box-sizing: border-box;
+  width: 50%;
+}
+.footer-col ul li:not(:last-child){
+margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #fff;
+  text-decoration: none;
+  font-weight:400;
+  color: #2e8b57;
+  display: block;
+  transition:all 0.3s ease;
+
+}
+.footer-col ul li a:hover{
+  color: #295367;
+  padding-left: 10px;
+}
+.footer-col .social-links a{
+display: inline-block;
+height: 40px;
+width:40px;
+background-color: #295367;
+margin:0 10px 10px 0;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+color: white;
+transition: all 0.5s ease;
+}
