@@ -9,3 +9,17 @@ COLOUR PALETTE:
 7. #2e8b57 - sea green
 8. #a9a9a9 - dull blue-gray
 9. #fcf0d4 - papaya whip
+
+COLOUR GRADIENT SHIFTS:
+-----------------------
+1. cream - orange - brown
+  background: linear-gradient(#fba52b,#ec5c04,#4c3228);
+
+2. blue - light pink - pink
+  background: linear-gradient(225deg,#e91e63,#03a9f4);
+
+3. sea blue - turquiose
+  background: linear-gradient(#66cdaa,#23aeba);
+
+4. sea blue - cream - turquiose
+  background: linear-gradient(#66cdaa,#ffcc66,#23aeba);
