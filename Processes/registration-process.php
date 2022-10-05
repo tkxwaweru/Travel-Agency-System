@@ -1,5 +1,5 @@
 <?php 
-require("../Processes/DBCONNECT.php");
+require("DBCONNECT.php");
 
 $fname = $_POST['client_fname'];
 $lname = $_POST['client_lname'];
