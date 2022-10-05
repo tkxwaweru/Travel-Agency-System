@@ -1,5 +1,5 @@
 <?php
-require("../Processes/DBCONNECT.php");
+require("DBCONNECT.php");
 session_start();
 
 if ( !isset($_POST['client_email'], $_POST['password']) ) {
