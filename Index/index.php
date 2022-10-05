@@ -28,7 +28,7 @@
         <br>
         <h2>Create an account, make a booking request and leave the rest to us.</h2>
         <br>
-        <a href="../Client-Interfaces/client-registration.html">SIGN UP</a>
+        <a href="../Client-Interfaces/client-registration.php">SIGN UP</a>
       </div>
     </div>
     <!----------------------------------------------------------------------------------->
