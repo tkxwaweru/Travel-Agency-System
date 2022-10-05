@@ -1,15 +1,13 @@
 <?php
-
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $dbname = "travel-agency-system";
-
+    $dbname = "travel_agency";
 
     $conn = mysqli_connect($servername,$username,$password,$dbname);
-
-    if(!$conn){
+        if(!$conn){
         die("Connection failed!".mysqli_connect_error());
     }
+
     echo "CONNECTION SUCCESSFUL!<br><br>";
 ?>
