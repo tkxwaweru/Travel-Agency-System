@@ -25,3 +25,27 @@
     width: 50%;   
     padding-left: 250px;
 }
+#input-text{
+    width: 80%;
+    height: 40px;
+    padding:10px 0;
+    margin:5px 0;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    border-bottom: 1px solid rgb(20, 9, 9);
+    outline:none;
+    background: transparent;
+  }
+  ::placeholder{
+    color: black;
+  }
+  #booking-button{
+    border-radius: 10px;
+     background-color:#2e8b57;
+     color:white;
+}
+#booking-button:hover{
+background-color: #97fac1;
+color: black;
+}

@@ -26,47 +26,28 @@
         <div class="row display-table-row">
             <div class="col-md-2 col-sm-1 hidden-xs display-table-cell v-align box" id="navigation">
                 <div class="logo">
-                    <a hef="home.html"><img src="" alt="Karibu_Kenya" class="hidden-xs hidden-sm">
+                    <a hef="home.html"><img src="../Index/Images/Logo.png" alt="Karibu_Kenya" class="hidden-xs hidden-sm">
                         <img src="" alt="Karibu_Kenya" class="visible-xs visible-sm circle-logo">
                     </a>
                 </div>
                 <div class="navi">
                     <ul>
-                        <li ><a href="#"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Home</span></a></li>
+                        <li ><a href="agentHome.html"><i class="fa fa-home" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Home</span></a></li>
                         <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Clients</span></a></li>
                         <li class="active"><a href="make-booking.html"><i class="fa fa-tasks" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Make Booking</span></a></li>
                         <li><a href="#"><i class="fa fa-bar-chart" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Booking History</span></a></li>
                         <li><a href="#"><i class="fa fa-cog" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Setting</span></a></li>
+                        <li><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i><span class="hidden-xs hidden-sm">Log Out</span></a></li>
                     </ul>
                 </div>
             </div>
             <div class="col-md-10 col-sm-11 display-table-cell v-align">
                 <!--<button type="button" class="slide-toggle">Slide Toggle</button> -->
-                <div class="row">
-                    <header>
-                        <div class="col-md-7">
-                            
-    
-                        </div>
-                        
-                        <div class="col-md-5">
-                            <div class="header-rightside">
-                                <ul class="list-inline header-top pull-right">
-                                    <li class="hidden-xs"><a href="#" class="add-project" data-toggle="modal" data-target="#add_project" style="background-color: #2e8b57; text-align: center;">Log Out</a></li>
-
-                                    <li class="dropdown">
-                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="" alt="user">
-                                            <b class="caret"></b></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </header>
-                </div>
+               
                 <div class="user-dashboard">
                     <div class="form">
                             <div class="flight"><label for="flight">Book A Flight</label><br>
-                                <a href="https://www.booking.com"><input type="button" value="Book a Flight"></a>
+                                <a href="https://www.Expedia.com"><input type="button" value="Book a Flight"></a>
                             </div>
                             <div class="hotel">
                                 <label for="hotel">Book A Hotel</label><br>
@@ -77,20 +58,22 @@
                     <div class="two-forms">
                         <div class="client-info">
                             <h3>CLIENT INFORMATION</h3><br>
-                            <label for="client">Input Client ID</label><br>
-                            <input type="number" id="input-text"><br><br>
-                            <input type="submit" name="search" value="SEARCH"><br>
+                            
+                            <input type="number" id="input-text" placeholder="Client ID"><br><br>
+                            <input type="submit" name="search" value="SEARCH" id="booking-button"><br>
                         </div>
                         <div class="invoice">
                             <h3>MAKE INVOICE</h3><br>   
                             <form action="">
-                                <label for="fight">Flight Price</label><br>
-                                <input type="number" class="input-text"><br>
-                                <label for="hotel">Hotel Price</label><br>
-                                <input type="number" name="hotel" id=""><br>
-                                <label for="transport">Transport Price</label><br>
-                                <input type="number" name="transport" id=""><br><br>
-                                <input type="submit" name="make-invoice" id="" value="Generate Invoice">
+                                
+                                <input type="number" id="input-text" placeholder="Client ID"><br>
+                                
+                                <input type="number" id="input-text" placeholder="Flight Price"><br>
+                               
+                                <input type="number" name="hotel" id="input-text" placeholder="Hotel Price"><br>
+                               
+                                <input type="number" name="transport" id="input-text" placeholder="Transport Price"><br><br>
+                                <input type="submit" name="make-invoice"  value="Generate Invoice" id="booking-button">
                             </form>
                         </div>
                     </div>

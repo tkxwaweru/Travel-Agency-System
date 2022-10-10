@@ -9,7 +9,7 @@
 
 /*Login Signup Page*/
 .row >header{
-    background-color: #295367;
+    background: linear-gradient(#66cdaa,#23aeba);
 }
 
 a:focus,a:hover,a{
@@ -194,7 +194,7 @@ li,ul{
 }
 
 #navigation {
-    background: #295367;
+    background: linear-gradient(#66cdaa,#23aeba);
 }
 
 #navigation {
@@ -374,17 +374,17 @@ header {
 
 .navi i {
     margin-right: 15px;
-    color: #5584ff;
+    background: linear-gradient(#66cdaa,#23aeba);
 }
 
 .navi .active a {
-    background: #2e8b57;
+    background:#ADC3B7;
     border-left: 5px solid #5584ff;
     padding-left: 15px;
 }
 
 .navi a:hover {
-    background: #2e8b57 none repeat scroll 0 0;
+    background:#ADC3B7 none repeat scroll 0 0;
     border-left: 5px solid #5584ff;
     display: block;
     padding-left: 15px;
