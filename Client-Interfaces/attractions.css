@@ -1,78 +1,70 @@
 *{
-  box-sizing: border-box;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-body{
-  margin: 0;
-  background-image: linear-gradient( #cfded4,#c5b3cb, #818d85);
-}
-.gallery-container{
-
-  max-width: 1400px;
-  margin: auto;
-  background-color: white;
-  display: inline;
-  padding-left:100px;
- 
-}
-.gallery-item{
-  position: relative;
-  margin: 50px;
-  border: 25px solid #ccc;
-  float: left;
-  width: 500px;
- 
-}
-.gallery-item img{
-  display: block;
-  width: 100%;
-  height: 275px;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  body{
+    margin: 0;
+    background-image: linear-gradient( #a4c8cd,#5a777b, #804835);
+  }
+  .main-container{
   
-  overflow: hidden;
-  margin-bottom: 0;
-}
-.gallery-image{
-  display:block;
-  overflow: hidden;
-  margin-bottom: 0;
-  max-width: 100%;
-}
-.image_description{
-  font-size:1.25em;
-  color:  #da9970;
-  margin-top: 0.25em;
-  background-color: white;
-  padding: 15px;
-  text-align: center;
-}
+    /* max-width: 1400px; */
+    margin: auto;
 
-.image_overlay{
-  position: absolute;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background: rgba(0, 0, 0, 0.715);
-  color:rgb(245, 249, 249);
-  font-family:'quicksand',sans-serif;
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
- opacity: 0.5;
- transition: opacity 0.25s;
-}
+    display: inline;
+    padding-left:100px; 
+    padding-right: 0px;
+   
+  }
+  .container{
+    position: relative;
+    margin: 50px;
+    /* border: 10px solid #ccc; */
+    float: left;
+    width:40%;
+     /* padding-left:100px;   */
+  
+  }
+  .container .image{
+    display: block;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    margin-bottom: 0;
 
-  .image_overlay > *{
-    transform: translateY(20px);
-    transition: transform 0.25s;
+  }
+  .image{
+    display:block;
+    overflow: hidden;
+    margin-bottom: 0;
+     width: 100%; 
+   
+  
+  }
+  .text{
+    font-size:2.25em;
+    color:  #deeaec;
+    margin-top: 0.25em;
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #8fa3aa;
+    text-align: center;
   }
 
-.image_title{
-  font-size: 2em;
-  font-weight: bold;
-
-}
-.image_overlay  :hover{
-  opacity:1;
-}
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+ 
