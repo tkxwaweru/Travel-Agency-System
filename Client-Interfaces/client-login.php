@@ -27,12 +27,15 @@
               <label><input type="checkbox">Remember me</label>
             </div>
             <div class="input">
-              <button type="submit" class="register-button">Log in</button>
+              <button type="submit" name="register-button" class="register-button">Log in</button>
             </div>
             <div class="input">
               <p>Don't have an account? <a href="client-registration.php">Sign up</a></p>
             </div>
           </form>
+          <script>
+
+          </script>
         </div>
       </div>
     </div>  
