@@ -6,9 +6,9 @@
     margin-left: 180px;
     padding-bottom: 50px;
     width: 200px;
-    margin-top: 100px;
-    height: 200px;
-    background-image: url(../Index/Images/Flight\ Peace\ _\ Sky\ aesthetic\,\ Travel\ aesthetic\,\ Dream\ vision\ board\ in\ 2022\ _\ Sky\ aesthetic\,\ Sunset\ pictures\,\ Travel\ aesthetic.jfif);
+    margin-top: 50px;
+    height: 270px;
+    background-image: url(../Index/Images/flight.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -17,9 +17,9 @@
     margin-left: 200px;
     padding-bottom: 50px;
     width: 200px;
-    margin-top: 100px;
-    height: 200px;
-    background-image: url(../Index/Images/379a63df-95c7-4230-94a1-7d1ec139ac8e.jfif);
+    margin-top: 50px;
+    height: 270px;
+    background-image: url(../Index/Images/hotel.jpeg);
     background-size: contain;
   
 }
@@ -48,3 +48,60 @@ h4{
   ::placeholder{
     color: black;
   }
+  .layer{
+    background: transparent;
+    height: 270px;
+    width: 200px;
+    position: absolute;
+    transition: 0.5s;
+    text-align: center;
+  }
+  .layer:hover{
+    background-color: #0e9594;
+    opacity: 50%;
+  }
+  .layer h1{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 15px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    border: solid;
+    border-radius: 10px;
+    opacity: 0;
+    transition: 0.5s;
+    font-family: 'Akshar', sans-serif;
+}
+.layer:hover h1{
+    bottom: 40%;
+    opacity: 10;
+}
+#button{
+    height: 30px;
+    background-color: #0e9594;
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#button:hover{
+    background-color: black;
+    color: #0e9594;
+}
+.dashboard-info{
+    height: 50px;
+    background: linear-gradient(#66cdaa,#23aeba);
+    display: flex;
+    width: 100%;
+}
+.right{
+    padding-top: 10px;
+    margin-left: 65%;
+}
+.left{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+ 

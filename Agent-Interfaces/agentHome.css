@@ -8,6 +8,22 @@
 7. #2e8b57 - sea green*/
 
 /*Login Signup Page*/
+
+.dashboard-info{
+    height: 50px;
+    background: linear-gradient(#66cdaa,#23aeba);
+    display: flex;
+    width: 100%;
+}
+.right{
+    padding-top: 10px;
+    margin-left: 65%;
+}
+.left{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
 .row >header{
     background: linear-gradient(#66cdaa,#23aeba);
 }
