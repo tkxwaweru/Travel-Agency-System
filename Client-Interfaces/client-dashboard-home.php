@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,7 +15,7 @@
     </div>
     <div class="header-icons">
       <div class="account">
-        <h4>[user first name]</h4>
+        <h4><h4><?php  include("../Processes/login-process.php"); ?><?php  echo $_SESSION['client_email']; ?></h4></h4>
       </div>
     </div>
   </header>
@@ -35,7 +36,7 @@
     <div class="main-body">
       <h2>Home</h2>
       <div class="promo_card">
-        <h1>Welcome [user first name].</h1>
+        <h1>Welcome <?php  echo $_SESSION['client_email']; ?></h1>
         <span>Use the sidebar to access a variety of options.</span>
         <a href="booking-request-test.php">BOOK NOW</a>
       </div>
