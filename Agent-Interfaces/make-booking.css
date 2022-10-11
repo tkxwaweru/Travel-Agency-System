@@ -1,32 +1,40 @@
-.form{
+.top{
     display: flex;
-    width: 80%;
-    margin-left: 10%;
-    padding-bottom: 50px;
 }
+
 .flight{
-    width: 50%;
+    margin-left: 180px;
+    padding-bottom: 50px;
+    width: 200px;
+    margin-top: 100px;
+    height: 200px;
+    background-image: url(../Index/Images/Flight\ Peace\ _\ Sky\ aesthetic\,\ Travel\ aesthetic\,\ Dream\ vision\ board\ in\ 2022\ _\ Sky\ aesthetic\,\ Sunset\ pictures\,\ Travel\ aesthetic.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
 .hotel{
-    width: 50%;
-    margin-left: 60%;
+    margin-left: 200px;
+    padding-bottom: 50px;
+    width: 200px;
+    margin-top: 100px;
+    height: 200px;
+    background-image: url(../Index/Images/379a63df-95c7-4230-94a1-7d1ec139ac8e.jfif);
+    background-size: contain;
+  
 }
-.two-forms{
-    display: inline;
-    width: 80%;
-    display: flex;
-    margin-left: 10%;
-}
-.client-info{
-    width: 50%;
-    
+h4{
+    color: black;
+    text-align: center;
+    margin-top: 45%;
 }
 .invoice{
-    width: 50%;   
-    padding-left: 250px;
+    margin-left: 30px;
+    margin-top: 25px;
+    width: 180px;
 }
 #input-text{
-    width: 80%;
+    width: 70%;
     height: 40px;
     padding:10px 0;
     margin:5px 0;
@@ -40,12 +48,3 @@
   ::placeholder{
     color: black;
   }
-  #booking-button{
-    border-radius: 10px;
-     background-color:#2e8b57;
-     color:white;
-}
-#booking-button:hover{
-background-color: #97fac1;
-color: black;
-}
