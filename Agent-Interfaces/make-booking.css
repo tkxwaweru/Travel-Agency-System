@@ -1,40 +1,47 @@
 .top{
     display: flex;
+    padding-bottom: 50px;
+}
+
+.invoice{
+    margin-left: 10px;
+    margin-top: 25px;
+    width: 20%;
 }
 
 .flight{
     margin-left: 180px;
     padding-bottom: 50px;
-    width: 200px;
+    width: 30%;
     margin-top: 50px;
     height: 270px;
     background-image: url(../Index/Images/flight.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-
+    
 }
 .hotel{
     margin-left: 200px;
     padding-bottom: 50px;
-    width: 200px;
+    width: 30%;
     margin-top: 50px;
     height: 270px;
     background-image: url(../Index/Images/hotel.jpeg);
-    background-size: contain;
-  
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 10px;
 }
+
+
 h4{
     color: black;
     text-align: center;
     margin-top: 45%;
 }
-.invoice{
-    margin-left: 30px;
-    margin-top: 25px;
-    width: 180px;
-}
+
+
 #input-text{
-    width: 70%;
+    width: 100%;
     height: 40px;
     padding:10px 0;
     margin:5px 0;
@@ -51,7 +58,7 @@ h4{
   .layer{
     background: transparent;
     height: 270px;
-    width: 200px;
+    width: 242px;
     position: absolute;
     transition: 0.5s;
     text-align: center;
@@ -76,7 +83,7 @@ h4{
     font-family: 'Akshar', sans-serif;
 }
 .layer:hover h1{
-    bottom: 40%;
+    bottom: 49%;
     opacity: 10;
 }
 #button{
@@ -87,6 +94,17 @@ h4{
     border-radius: 5px;
 }
 #button:hover{
+    background-color: black;
+    color: #0e9594;
+}
+#back-button{
+    height: 30px;
+    background-color: #0e9594;
+    color: black;
+    border: 1px solid;
+    border-radius: 5px;
+}
+#back-button:hover{
     background-color: black;
     color: #0e9594;
 }
@@ -105,3 +123,299 @@ h4{
     margin-bottom: 10px;
 }
  
+
+
+
+
+/*-----------------BOOKING REQUEST FORM-----------------*/
+h1 {
+    text-align: center;
+  }
+  h2 {
+    margin: 0;
+  }
+ 
+  .text-center {
+    text-align: center;
+  }
+  .mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .pl-0 {
+    padding-left: 0;
+  }
+  .button {
+    padding: 5px 7.5px;
+    border: 1px solid #0e9594;
+    background-color: #0e9594;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .submit-btn {
+    border: 1px solid #0e9594;
+    background-color: #0e9594;
+  }
+ 
+  .d-none {
+    display: none;
+  }
+  .form-step {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 20px;
+  }
+  .font-normal {
+    font-weight: normal;
+  }
+  ul.form-stepper {
+    counter-reset: section;
+    margin-bottom: 20px;
+  }
+  ul.form-stepper .form-stepper-circle {
+    position: relative;
+  }
+  ul.form-stepper .form-stepper-circle span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+  }
+  .form-stepper-horizontal {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+  ul.form-stepper > li:not(:last-of-type) {
+    margin-bottom: 0.625rem;
+    -webkit-transition: margin-bottom 0.4s;
+    -o-transition: margin-bottom 0.4s;
+    transition: margin-bottom 0.4s;
+  }
+  .form-stepper-horizontal > li:not(:last-of-type) {
+    margin-bottom: 0 !important;
+  }
+  .form-stepper-horizontal li {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: start;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+  }
+  .form-stepper-horizontal li:not(:last-child):after {
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 1px;
+    content: "";
+    top: 32%;
+  }
+  .form-stepper-horizontal li:after {
+    background-color: #dee2e6;
+  }
+  .form-stepper-horizontal li.form-stepper-completed:after {
+    background-color: #0e9594;
+  }
+  .form-stepper-horizontal li:last-child {
+    flex: unset;
+  }
+  ul.form-stepper li a .form-stepper-circle {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    margin-right: 0;
+    line-height: 1.7rem;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.38);
+    border-radius: 50%;
+  }
+  .form-stepper .form-stepper-active .form-stepper-circle {
+    background-color: #0e9594 !important;
+    color: #fff;
+  }
+  .form-stepper .form-stepper-active .label {
+    color:#0e9594 !important;
+  }
+  .form-stepper .form-stepper-active .form-stepper-circle:hover {
+    background-color: #0e9594 !important;
+    color: #fff !important;
+  }
+  .form-stepper .form-stepper-unfinished .form-stepper-circle {
+    background-color: #f8f7ff;
+  }
+  .form-stepper .form-stepper-completed .form-stepper-circle {
+    background-color: #0e9594 !important;
+    color: #fff;
+  }
+  .form-stepper .form-stepper-completed .label {
+    color: #0e9594 !important;
+  }
+  .form-stepper .form-stepper-completed .form-stepper-circle:hover {
+    background-color: #0e9594 !important;
+    color: #fff !important;
+  }
+  .form-stepper .form-stepper-active span.text-muted {
+    color: #fff !important;
+  }
+  .form-stepper .form-stepper-completed span.text-muted {
+    color: #fff !important;
+  }
+  .form-stepper .label {
+    font-size: 12px;
+    margin-top: 0.5rem;
+  }
+  .form-stepper a {
+    cursor: default;
+  }
+  #input-text{
+    width: 30%;
+    height: 40px;
+    padding:10px 0;
+    margin:5px 0;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    border-bottom: 1px solid rgb(20, 9, 9);
+    outline:none;
+    background: transparent;
+  }
+  ::placeholder{
+    color: gray;
+  }
+  
+  
+  /*------------------------DASHBOARD-------------------*/
+
+  /*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: #66cdaa;
+}
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px;
+  background: linear-gradient(#66cdaa,#23aeba);
+}
+.title{
+  display: flex;
+  align-items: center;
+}
+.title span{
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 2rem 8rem 2rem 2rem;
+}
+.header-icons{
+  display: flex;
+  align-items: center;
+}
+.container{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+nav{
+  background: white;
+}
+
+/*-----------------------------------Sidebar---------------------------------------------*/
+.side_navbar{
+  padding: 1px;
+  display: flex;
+  flex-direction: column;
+  height: 135vh;
+  background: linear-gradient(#66cdaa,#23aeba);
+}
+.side_navbar span{
+  color: gray;
+  margin: 1rem 3rem;
+  font-size: 12px;
+}
+.side_navbar a{
+  width: 100%;
+  padding: 0.8rem 3rem;
+  font-weight: 500;
+  font-size: 15px;
+  color: black;
+  transition: all 0.35s;
+}
+.side_navbar .log-out-button{
+  color: red;
+}
+.side_navbar a:hover{
+  background: #23aeba;
+}
+.side_navbar .active{
+  background-color: #23aeba;
+  color: white;
+}
+
+/*-------------------------------------------Main Body Section---------------------------------------*/
+.main-body{
+  width: 80%;
+  padding: 1rem;
+}
+.promo_card{
+  width: 100%;
+  color: black;
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 0.5rem 1rem 1rem 3rem;
+  background: #23aeba;
+}
+.promo_card h1, .promo_card span, button{
+  margin: 10px;
+}
+.promo_card a{
+  width: 130px;
+  border: 2px solid #2e8b57;
+  background-color: white;
+  text-decoration: none;
+  font-size: 15px;
+  color: #2e8b57 ;
+  display: block;
+  padding: 15px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.35s;
+}
+.promo_card a:hover{
+  border: 2px solid #2e8b57;
+  background-color: #2e8b57;
+  color:  white;
+}
+.promo_card a:active{
+  opacity: 0.7;
+}
+
+
+
+
+
