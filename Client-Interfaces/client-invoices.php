@@ -14,7 +14,7 @@
     </div>
     <div class="header-icons">
       <div class="account">
-        <h4>[user first name]</h4>
+        <h4><?php  include("../Processes/login-process.php"); ?><?php  echo $_SESSION['client_email']; ?></h4>
       </div>
     </div>
   </header>
