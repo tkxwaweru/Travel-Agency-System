@@ -14,7 +14,7 @@
     </div>
     <div class="header-icons">
       <div class="account">
-        <h4>[user first name]</h4>
+        <h4><?php  include("../Processes/login-process.php"); ?><?php  echo $_SESSION['client_email']; ?></h4>
       </div>
     </div>
   </header>
@@ -73,7 +73,7 @@
                  
                   <!-- Step 1 input fields -->
                   <div class="mt-3">
-                    <form action="" class="personal-info" id="personal">
+                    <form action="../Processes/booking-request-form-process.php" method="post" class="personal-info" id="personal">
                     
                         
                         <input type="text" name="fname" id="input-text" placeholder="Enter Your First Name" required><br>
@@ -98,7 +98,7 @@
                 
                   <!-- Step 2 input fields -->
                   <div class="mt-3">
-                    <form action="" class="flight-info" id="flight">
+                    <form action="../Processes/booking-request-form-process.php" method="post" class="flight-info" id="flight">
                      
                        
                            <select name="flight-type" id="input-text">
@@ -145,7 +145,7 @@
                  
                   <!-- Step 3 input fields -->
                   <div class="mt-3">
-                    <form action=""class="accomodation-info" id="accomodation" >
+                    <form action="../Processes/booking-request-form-process.php" method="post" class="accomodation-info" id="accomodation" >
                         
                        
                         <select name="accomodation-type" id="input-text">
@@ -193,9 +193,9 @@
                         
                         <select name="description" id="input-text">
                             <option hidden selected>Room Description</option>
-                            <option value="rescription">Besides the Beach</option>
-                            <option value="rescription">Has good view</option>
-                            <option value="rescription">Quiet place</option>
+                            <option value="description">Besides the Beach</option>
+                            <option value="description">Has good view</option>
+                            <option value="description">Quiet place</option>
                         </select><br>
                         
                     </form>
@@ -203,7 +203,7 @@
                   </div>
                   <div class="mt-3">
                       <button class="button btn-navigate-form-step" type="button" step_number="2">Prev</button>
-                      <button class="button submit-btn" type="submit">Save</button>
+                      <button class="button submit-btn" name= "save"type="submit">Save</button>
                   </div>
               </section>
           </form>
@@ -289,3 +289,4 @@
   </div>
 </body>
 </html>
+
