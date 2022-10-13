@@ -16,7 +16,7 @@
     </div>
     <div class="header-icons">
       <div class="account">
-        <h4><h4>[Admin Name]</h4></h4>
+        <h4><h4>[Agent Name]</h4></h4>
       </div>
     </div>
   </header>

@@ -4,9 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Home</title>
-  <link rel="stylesheet" href="client-dashboard-home.css" />
   <link rel="stylesheet" href="make-booking.css">
-  <link rel="stylesheet" href="booking-request.css">
   <!-- Font Awesome Cdn Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
   
@@ -18,7 +16,7 @@
     </div>
     <div class="header-icons">
       <div class="account">
-        <h4 style="margin-bottom: 50px;">[Admin Name]</h4>
+        <h4 style="margin-bottom: 50px;">[Agent Name]</h4>
       </div>
     </div>
   </header>
