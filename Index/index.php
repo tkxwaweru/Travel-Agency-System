@@ -18,7 +18,7 @@
         <ul>
           <li><a href="index.html">HOME</a></li>
           <li><a href="../Client-Interfaces\client-login.php">LOGIN</a></li>
-          <li><a href="../Client-Interfaces\attractions.html">ATTRACTIONS</a></li>
+          <li><a href="../Client-Interfaces\attractions.php">ATTRACTIONS</a></li>
           <li><a href="#">CONTACT US</a></li>
         </ul>
       </nav>
@@ -176,7 +176,7 @@
         <div class="gallery-description">Diverse wildlife</div>
       </div>
     </div>
-    <div class="attractions-link"><a href="../Client-Interfaces\attractions.html">Explore</a></div>
+    <div class="attractions-link"><a href="../Client-Interfaces\attractions.php">Explore</a></div>
      <!-------------------------------Footer-------------------------------------------->
     <footer class="footer">
       <div class="container">
