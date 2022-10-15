@@ -35,7 +35,7 @@
     <div class="main-body">
       <h2>Home</h2>
       <div class="promo_card">
-        <h1><?php  include("../Processes/agent-login-process.php"); ?><?php  echo $_SESSION['agent_email']; ?></h1>
+        <h1><?php  echo $_SESSION['agent_email']; ?></h1>
        
       </div>
     </div>
