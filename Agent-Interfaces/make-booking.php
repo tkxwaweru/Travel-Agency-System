@@ -16,7 +16,7 @@
     </div>
     <div class="header-icons">
       <div class="account">
-        <h4 style="margin-bottom: 50px;">[Agent Name]</h4>
+        <h4 style="margin-bottom: 50px;"><?php  include("../Processes/agent-login-process.php"); ?><?php  echo $_SESSION['agent_email']; ?></h4>
       </div>
     </div>
   </header>
