@@ -25,7 +25,7 @@
             <h1>Add Agent</h1>
         </div>
 
-        <form>
+        <form action="../Processes/agentregistration-process.php" method="post">
         <div class="form">
         <div class="inputfield">
         <label>First Name</label>
