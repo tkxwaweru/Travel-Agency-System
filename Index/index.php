@@ -16,9 +16,9 @@
       <nav>
         <img src="Images/Logo.png" alt="Discover Kenya Logo" class="logo">
         <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="../Client-Interfaces\client-login.php">LOGIN</a></li>
-          <li><a href="../Client-Interfaces\attractions.php">ATTRACTIONS</a></li>
+          <li><a href="index.php">HOME</a></li>
+          <li><a href="../Client-Interfaces\client-login.php" target="_blank">LOGIN</a></li>
+          <li><a href="../Client-Interfaces\attractions.php" target="_blank">ATTRACTIONS</a></li>
           <li><a href="#">CONTACT US</a></li>
         </ul>
       </nav>
@@ -28,7 +28,7 @@
         <br>
         <h2>Create an account, make a booking request and leave the rest to us.</h2>
         <br>
-        <a href="../Client-Interfaces/client-registration.php">SIGN UP</a>
+        <a href="../Client-Interfaces/client-registration.php" target="_blank">SIGN UP</a>
       </div>
     </div>
     <!----------------------------------------------------------------------------------->
@@ -159,7 +159,7 @@
         <div class="gallery-image">
           <img src="Images/mombasa-serena.jpg" alt="">
         </div>
-        <div class="gallery-description">Luxurious lodges</div>
+        <div class="gallery-description">Luxurious hotels</div>
       </div>
   
       <div class="gallery-item">
@@ -176,7 +176,7 @@
         <div class="gallery-description">Diverse wildlife</div>
       </div>
     </div>
-    <div class="attractions-link"><a href="../Client-Interfaces\attractions.php">Explore</a></div>
+    <div class="attractions-link"><a href="../Client-Interfaces\attractions.php" target="_blank">Explore</a></div>
      <!-------------------------------Footer-------------------------------------------->
     <footer class="footer">
       <div class="container">
@@ -184,10 +184,10 @@
           <div class="footer-col">
               <h4>Useful links</h4>
               <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="">Sign up</a></li>
-                <li><a href="">Login</a></li>
-                <li><a href="">Attractions</a></li>
+                <li><a href="index.php">Home</a></li>
+                <li><a href="../Client-Interfaces/client-registration.php" target="_blank">Sign up</a></li>
+                <li><a href="../Client-Interfaces/client-login.php" target="_blank">Login</a></li>
+                <li><a href="../Agent-Interfaces/agent-login.php" target="_blank">Management system</a></li>
               </ul>
           </div> 
 
@@ -196,28 +196,28 @@
               <ul>
                 <li><a href="">FAQs</a></li>
                 <li><a href="">Contact us</a></li>
-                <li><a href="">Booking requests</a></li>
-                <li><a href="">Customer reviews</a></li>
+                <li><a href="../Client-Interfaces/client-login.php" target="_blank">Booking requests</a></li>
+                <li><a href="../Client-Interfaces/attractions.php" target="_blank">Attractions</a></li>
               </ul>
           </div> 
       
           <div class="footer-col">
               <h4>Affiliate links</h4>
               <ul>
-                <li><a href="https://www.serenahotels.com/">Serena hotels</a></li>
-                <li><a href="https://kenyatoursandsafaris.com/">Kenya tours</a></li>
-                <li><a href="https://www.viator.com/Kenya-tours/Transfers-and-Ground-Transport/d801-g15">Viator</a></li>
-                <li><a href="https://www.kenya-airways.com/ke/en/?gclid=EAIaIQobChMIpcfmvvXE-gIVk_t3Ch0oTw1EEAAYASAAEgL8qvD_BwE">Kenya Airways</a></li>
+                <li><a href="https://www.serenahotels.com/" target="_blank">Serena hotels</a></li>
+                <li><a href="https://kenyatoursandsafaris.com/" target="_blank">Kenya tours</a></li>
+                <li><a href="https://www.viator.com/Kenya-tours/Transfers-and-Ground-Transport/d801-g15" target="_blank">Viator</a></li>
+                <li><a href="https://www.kenya-airways.com/ke/en/?gclid=EAIaIQobChMIpcfmvvXE-gIVk_t3Ch0oTw1EEAAYASAAEgL8qvD_BwE" target="_blank">Kenya Airways</a></li>
               </ul>
           </div> 
       
           <div class="footer-col">
               <h4>follow us</h4>
               <div class="social-links">
-              <a href="https://www.facebook.com/" ><i class="fab fa-facebook-f"></i></a>
-              <a href="https://twitter.com/" ><i class="fab fa-twitter"></i></a>
-              <a href="https://www.instagram.com/" ><i class="fab fa-instagram"></i></a>
-              <a href="https://www.linkedin.com/" ><i class="fab fa-linkedin-in"></i></a>
+              <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
             </div>
           </div>  
         </div>
