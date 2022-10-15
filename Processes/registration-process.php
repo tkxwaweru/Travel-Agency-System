@@ -13,7 +13,7 @@ $sql= "INSERT INTO `clients`(`client_fname`, `client_lname`, `age`, `sex`, `phon
 
 
 if (mysqli_query($conn,$sql)) {
-	echo "New Record inserted successfully";
+ header("location: ..\Client-Interfaces\client-login.php");
 }else{echo "Error: Record not added".mysqli_error($conn);}
 
 ?>
