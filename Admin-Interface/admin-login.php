@@ -14,10 +14,10 @@
       <div class="registration-form">
         <div class="form-content">
           <h2>Login</h2>
-          <form action="../Processes/login-process.php" method="post"> 
+          <form action="..\Processes\admin-login-process.php" method="post"> 
             <div class="input">
               <span>Email</span>
-              <input type="text" id="email" name="client_email" required> 
+              <input type="text" id="email" name="admin_email" required> 
             </div>
             <div class="input">
               <span>Password</span>
@@ -27,7 +27,7 @@
               <label><input type="checkbox">Remember me</label>
             </div>
             <div class="input">
-              <button type="submit" class="register-button">Log in</button>
+              <button type="submit" name="login" class="register-button">Log in</button>
             </div>
           </form>
         </div>
