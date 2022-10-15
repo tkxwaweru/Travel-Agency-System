@@ -21,7 +21,7 @@
             </div>
             <div class="input">
               <span>Password</span>
-              <input type="Password" id="password" name="agent_password" required>
+              <input type="Password" id="password" name="password" required>
             </div>
             <div class="remember">
               <label><input type="checkbox">Remember me</label>
