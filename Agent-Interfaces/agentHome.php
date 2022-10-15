@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,7 +16,7 @@
     </div>
     <div class="header-icons">
       <div class="account">
-        <h4><h4>[Agent Name]</h4></h4>
+        <h4><h4><?php  include("../Processes/agent-login-process.php"); ?><?php  echo $_SESSION['agent_email']; ?></h4></h4>
       </div>
     </div>
   </header>
@@ -34,7 +35,7 @@
     <div class="main-body">
       <h2>Home</h2>
       <div class="promo_card">
-        <h1>[Agent Name]</h1>
+        <h1><?php  include("../Processes/agent-login-process.php"); ?><?php  echo $_SESSION['agent_email']; ?></h1>
        
       </div>
     </div>
@@ -42,3 +43,4 @@
   </div>
 </body>
 </html>
+
