@@ -18,7 +18,6 @@
          include 'Admin_sidebar.php';
           ?>
 
-        <center>
         <div class="filter">
         </div>
 
@@ -32,6 +31,8 @@
                 <th>Phonenumber</th>
                 <th>Email</th>
                 <th>Password</th>
+                <th>agent_id</th>
+                <th>agent_assigned</th>
                 <th>Update</th>
                 <th>Delete</th>
                 
@@ -51,6 +52,8 @@
                     <td><?php echo $value["phone_number"] ?></td>
                     <td><?php echo $value["client_email"] ?></td>
                     <td><?php echo $value["password"] ?></td>
+                    <td><?php echo $value["agent_id"] ?></td>
+                    <td><?php echo $value["agent_assigned"] ?></td>
                     
 
                     <td><?php 
