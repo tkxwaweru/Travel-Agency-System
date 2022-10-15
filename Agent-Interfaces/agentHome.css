@@ -18,10 +18,10 @@
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    /*font-family: "Poppins", sans-serif;*/
   }
   body{
-    background: #66cdaa;
+    background: white;
   }
   .header{
     display: flex;
@@ -29,7 +29,7 @@
     justify-content: space-between;
     height: 60px;
     padding: 20px;
-    background: linear-gradient(#66cdaa,#23aeba);
+    background: #bc9e7d;
   }
   .title{
     display: flex;
@@ -61,10 +61,10 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background: linear-gradient(#66cdaa,#23aeba);
+    background:#bc9e7d;
   }
   .side_navbar span{
-    color: gray;
+    color: #bc9e7d;
     margin: 1rem 3rem;
     font-size: 12px;
   }
@@ -77,13 +77,13 @@
     transition: all 0.35s;
   }
   .side_navbar .log-out-button{
-    color: red;
+    color:red;
   }
   .side_navbar a:hover{
-    background: #23aeba;
+    background: #D2B48C;
   }
   .side_navbar .active{
-    background-color: #23aeba;
+    background-color: #D2B48C;
     color: white;
   }
   
@@ -98,7 +98,7 @@
     margin-top: 10px;
     border-radius: 8px;
     padding: 0.5rem 1rem 1rem 3rem;
-    background: #23aeba;
+    background: #bc9e7d;
   }
   .promo_card h1, .promo_card span, button{
     margin: 10px;

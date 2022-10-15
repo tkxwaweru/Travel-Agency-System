@@ -15,7 +15,7 @@
     width: 30%;
     margin-top: 50px;
     height: 270px;
-    background-image: url(../Index/Images/flight.jpeg);
+    background-image: url(../Index/Images/Flight\ Peace\ _\ Sky\ aesthetic\,\ Travel\ aesthetic\,\ Dream\ vision\ board\ in\ 2022\ _\ Sky\ aesthetic\,\ Sunset\ pictures\,\ Travel\ aesthetic.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     
@@ -26,7 +26,7 @@
     width: 30%;
     margin-top: 50px;
     height: 270px;
-    background-image: url(../Index/Images/hotel.jpeg);
+    background-image: url(../Index/Images/hotel5.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin-right: 10px;
@@ -64,7 +64,7 @@ h4{
     text-align: center;
   }
   .layer:hover{
-    background-color: #0e9594;
+    background-color:#D2B48C ;
     opacity: 50%;
   }
   .layer h1{
@@ -88,14 +88,14 @@ h4{
 }
 #button{
     height: 30px;
-    background-color: #0e9594;
+    background-color: #D2B48C;
     color: black;
     border: 1px solid;
     border-radius: 5px;
 }
 #button:hover{
-    background-color: black;
-    color: #0e9594;
+    background-color: white;
+    color: #D2B48C;
 }
 #back-button{
     height: 30px;
@@ -106,11 +106,11 @@ h4{
 }
 #back-button:hover{
     background-color: black;
-    color: #0e9594;
+    color: #D2B48C;
 }
 .dashboard-info{
     height: 50px;
-    background: linear-gradient(#66cdaa,#23aeba);
+    background: #bc9e7d;
     display: flex;
     width: 100%;
 }
@@ -308,10 +308,10 @@ h1 {
   outline: none;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
 }
 body{
-  background: #66cdaa;
+  background: white;
 }
 .header{
   display: flex;
@@ -319,7 +319,7 @@ body{
   justify-content: space-between;
   height: 60px;
   padding: 20px;
-  background: linear-gradient(#66cdaa,#23aeba);
+  background: #bc9e7d;
 }
 .title{
   display: flex;
@@ -351,7 +351,7 @@ nav{
   display: flex;
   flex-direction: column;
   height: 135vh;
-  background: linear-gradient(#66cdaa,#23aeba);
+  background: #bc9e7d;
 }
 .side_navbar span{
   color: gray;
@@ -370,10 +370,10 @@ nav{
   color: red;
 }
 .side_navbar a:hover{
-  background: #23aeba;
+  background: #D2B48C;
 }
 .side_navbar .active{
-  background-color: #23aeba;
+  background-color:#D2B48C ;
   color: white;
 }
 

@@ -23,6 +23,7 @@
 
   <div class="container">
     <nav>
+    
       <div class="side_navbar">
         <a href="agentHome.php">Home</a>
         <a class="active" href="clients.php">Clients</a>
