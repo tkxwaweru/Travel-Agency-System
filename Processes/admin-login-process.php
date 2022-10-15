@@ -34,7 +34,7 @@ if(isset($_POST['login'])){
         header("location:..\Admin-Interface\Admin.php");
     }
     else{
-        echo "incorrect Details";
+        header("location:..\Admin-Interface\admin-login.php?&&&incorrect details");
     }
 }
 
