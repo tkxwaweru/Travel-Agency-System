@@ -28,9 +28,6 @@
                 <th>Phonumber</th>
                 <th>Email</th>   
                 <th>Password</th>  
-                <th>Status</th>
-                <th>Code</th>
-                <th>Rating</th>
                 <th>Update</th>
                 <th>Delete</th>
                 
@@ -48,9 +45,6 @@
                     <td><?php echo $value["agent_phonenumber"] ?></td>
                     <td><?php echo $value["agent_email"] ?></td>
                     <td><?php echo $value["agent_password"] ?></td>
-                    <td><?php echo $value["agent_status"] ?></td>
-                    <td><?php echo $value["agent_code"] ?></td>
-                    <td><?php echo $value["agent_rating"] ?></td>
                     
 
                     <td><?php 
