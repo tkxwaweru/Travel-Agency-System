@@ -12,17 +12,13 @@ $agent_phonenumber = $_POST['agent_phonenumber'];
 
 $agent_email = $_POST['agent_email']; 
 
-$agent_status = $_POST['agent_status']; 
-
-$agent_code = $_POST['agent_code']; 
-
-$agent_rating = $_POST['agent_rating']; 
+$agent_password = $_POST['agent_password']; 
  
  
 
 require("../Processes/DBCONNECT.php"); 
 
-$sql = "UPDATE  SET `agent_id`='$agent_id',`agent_fname`='$agent_fname',`agent_lname`='$client_lname', `agent_phonenumber` = '$agent_phonenumber', `agent_email` = '$agent_email',`agent_status`='$agent_status',`agent_code`='$agent_code',`agent_rating`='$agent_rating' WHERE agent_id = '$hiddenagent_id'"; 
+$sql = "UPDATE  SET `agent_id`='$agent_id',`agent_fname`='$agent_fname',`agent_lname`='$client_lname', `agent_phonenumber` = '$agent_phonenumber', `agent_email` = '$agent_email',`agent_password`='$agent_password' WHERE agent_id = '$hiddenagent_id'"; 
 
 $result = mysqli_query($conn, $sql); 
 
