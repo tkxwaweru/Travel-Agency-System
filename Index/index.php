@@ -17,8 +17,8 @@
         <img src="Images/Logo.png" alt="Discover Kenya Logo" class="logo">
         <ul>
           <li><a href="index.php">HOME</a></li>
-          <li><a href="../Client-Interfaces\client-login.php">LOGIN</a></li>
-          <li><a href="../Client-Interfaces\attractions.php">ATTRACTIONS</a></li>
+          <li><a href="../Client-Interfaces\client-login.php" target="_blank">LOGIN</a></li>
+          <li><a href="../Client-Interfaces\attractions.php" target="_blank">ATTRACTIONS</a></li>
           <li><a href="#">CONTACT US</a></li>
         </ul>
       </nav>
@@ -28,7 +28,7 @@
         <br>
         <h2>Create an account, make a booking request and leave the rest to us.</h2>
         <br>
-        <a href="../Client-Interfaces/client-registration.php">SIGN UP</a>
+        <a href="../Client-Interfaces/client-registration.php" target="_blank">SIGN UP</a>
       </div>
     </div>
     <!----------------------------------------------------------------------------------->
@@ -185,19 +185,19 @@
               <h4>Useful links</h4>
               <ul>
                 <li><a href="index.php">Home</a></li>
-                <li><a href="../Client-Interfaces/client-registration.php">Sign up</a></li>
-                <li><a href="../Client-Interfaces/client-login.php">Login</a></li>
-                <li><a href="../Agent-Interfaces/agent-login.php">Management system</a></li>
+                <li><a href="../Client-Interfaces/client-registration.php" target="_blank">Sign up</a></li>
+                <li><a href="../Client-Interfaces/client-login.php" target="_blank">Login</a></li>
+                <li><a href="../Agent-Interfaces/agent-login.php" target="_blank">Management system</a></li>
               </ul>
           </div> 
 
           <div class="footer-col">
               <h4>Support</h4>
               <ul>
-                <li><a href="">FAQs</a></li>
-                <li><a href="">Contact us</a></li>
-                <li><a href="../Client-Interfaces/client-login.php">Booking requests</a></li>
-                <li><a href="../Client-Interfaces/attractions.php">Attractions</a></li>
+                <li><a href="../Client-Interfaces/FAQ.php" target="_blank">FAQs</a></li>
+                <li><a href="../Client-Interfaces/contact-us.php" target="_blank"> Contact us</a></li>
+                <li><a href="../Client-Interfaces/client-login.php" target="_blank">Booking requests</a></li>
+                <li><a href="../Client-Interfaces/attractions.php" target="_blank">Attractions</a></li>
               </ul>
           </div> 
       
@@ -223,5 +223,6 @@
         </div>
       </div> 
     </footer>
+
   </body>
 </html>
