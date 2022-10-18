@@ -44,17 +44,9 @@ $result = mysqli_query($conn, $sql);
 
         <input type='text' name='agent_email' value=".$data['agent_email']." /> 
 
-        <p>Status:</p> 
+        <p>Password:</p> 
 
-        <input type='text' name='agent_status' value=".$data['agent_status']." /> 
-
-        <p>Code:</p> 
-
-        <input type='text' name='agent_code' value=".$data['agent_code']." /> 
-
-        <p>Rating:</p> 
-
-        <input type='text' name='agent_rating' value=".$data['agent_rating']." /> 
+        <input type='text' name='agent_password' value=".$data['agent_password']." /> 
 
 
         <button type='submit' class='register-button'>Save</button> 
