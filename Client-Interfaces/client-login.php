@@ -31,6 +31,8 @@
             </div>
             <div class="input">
               <p>Don't have an account? <a href="client-registration.php">Sign up</a></p>
+              <br>
+              <p><a href="../Index/index.php">Back to home</a></p>
             </div>
           </form>
           <script>

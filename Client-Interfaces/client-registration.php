@@ -53,6 +53,8 @@
               <button type="submit" class="register-button">Register</button>
             </div>
           </form>
+          <br>
+          <span><a href="../Index/index.php">Back to home</a></span>
         </div>
       </div>
     </div>  

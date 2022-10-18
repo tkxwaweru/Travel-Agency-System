@@ -1,159 +1,133 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Attractions page</title>
-        <link rel="stylesheet" href="attractions.css">
-    </head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    <link rel="stylesheet" href="attractions.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
+    <title>Attractions</title>
+  </head>
+  <body>
+    <div class="header-container">
+      <nav>
+        <img src="Images/Logo.png" alt="Discover Kenya Logo" class="logo">
+        <ul>
+          <li><a href="../Index/index.php">HOME</a></li>
+          <li><a href="client-login.php">LOGIN</a></li>
+          <li><a href="attractions.php">ATTRACTIONS</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </div>
 
-    <body>
-<div class="main-container ">
+    <div class="heading">
+    <h1>Share your memories with the rest of Kenya</h1>
+    <p>Here are some of our favourite memories of moments captured by our satisfied customers</p>
+    </div>
 
-<div class="container">
-  <img src="images/amboseli.jpg" alt="amboseli" class="image">
-  <div class="overlay">
-    <div class="text">
-        <h1>AMBOSELI</h1>
-         The park is famous for being the best place in the world<br>
-         to get close to free-ranging elephants. Other attractions of<br>
-          the park include opportunities to meet Maasai and visit a Maasai village.<br>
-         </div>
-  </div>
- 
-  
-
-</div>
-
-<div class="container">
-  <img src="Images\diani-beach.jpg" alt="diani beach" class="image">
-  <div class="overlay">
-    <div class="text">
-        <h1>DIANI BEACH</h1>
-        Diani has a population of around 100,000 inhabitants and is famous for its white sand beaches,<br>
-         blue ocean and (kite)surfing. The beach is popular for relaxing resorts which are popular with honeymooners,
-          backpackers and families on holiday
+    <div class="gallery-container">
+      <div class="polaroid-container">
+        <div class="polaroid-content">
+            <div class="polaroid-image">
+              <img src="Images/maasai-mara-balloons.jpg">
+            </div>
+            <div class="date">13/04/2020</div>
+            <div class="location">Maasai Mara</div>
+            <div class="comment">We flew on balloons</div>
         </div>
-  </div>
- 
-  
+      </div>
 
-</div>
-
-<div class="container">
-  <img src="Images\fort-jesus.jpg" alt="fort Jesus" class="image">
-  <div class="overlay">
-    <div class="text">
-        <h1>HISTORICAL SITES</h1>
-        The Fort, built by the Portuguese to the designs of Giovanni to protect the port of Mombasa,<br>
-         is one of the most outstanding and well preserved examples of<br>
-          16th Portuguese military fortification and a landmark in the history of this type of construction.
+      <div class="polaroid-container">
+        <div class="polaroid-content">
+            <div class="polaroid-image">
+              <img src="Images/kilimanjaro.jpg">
+            </div>
+            <div class="date">02/03/2019</div>
+            <div class="location">Migori</div>
+            <div class="comment">Wow, I've never been so close!</div>
         </div>
-  </div>
+      </div>
 
-</div>
-
-<div class="container">
-  <img src="Images\hotel-pools.jpg" alt="hotel pool" class="image">
-  <div class="overlay">
-    <div class="text">
-        <h1>RESORTS</h1>
-        Our world class resorts provide you with the best hospitality services<br>
-        ensuring you get to enjoy our kenyan meals and have the best time relaxing<br>
-        if you are looking for a good time of peace then these are the places to visit.
+      <div class="polaroid-container">
+        <div class="polaroid-content">
+            <div class="polaroid-image">
+              <img src="Images/maasai-tourists.jpg">
+            </div>
+            <div class="date">20/10/2022</div>
+            <div class="location">Narok</div>
+            <div class="comment">Made some new friends</div>
         </div>
-  </div>
+      </div>
 
-</div>
-
-<div class="container">
-  <img src="Images\maasai-mara-elephants.jpg" alt="elephants" class="image">
-  <div class="overlay">
-    <div class="text">
-        <h1>ELEPHANTS</h1>
-        They're the world's largest land animal. The African Savanna (Bush) elephant <br>
-        is the world's largest land animal with adult males, or bull elephants,<br>
-         standing up to 3m high and weighing up to 6,000kg on average.
+      <div class="polaroid-container">
+        <div class="polaroid-content">
+            <div class="polaroid-image">
+              <img src="Images/mara-lion.jpg">
+            </div>
+            <div class="date">03/06/2021</div>
+            <div class="location">Maasai Mara</div>
+            <div class="comment">The king of the jungle</div>
         </div>
-  </div>
+      </div>
 
-</div>
-
-<div class="container">
-  <img src="Images\maasai-mara-balloons.jpg" alt="hot air baloon" class="image">
-  <div class="overlay">
-    <div class="text">
-        <h1>HOT AIR BALLOONS</h1>
-        For the perfect view of the kenyan Savanah, the migrating animals and <br>
-        the beautiful sunset and sunrise, these baloons provide you with the best view<br>
-        at very affordable prices.
+      <div class="polaroid-container">
+        <div class="polaroid-content">
+            <div class="polaroid-image">
+              <img src="Images/fort-jesus.jpg">
+            </div>
+            <div class="date">05/06/2020</div>
+            <div class="location">Mombasa</div>
+            <div class="comment">Fort Jesus, so beautiful.</div>
         </div>
-  </div>
+      </div>
 
-</div>
-
-<div class="container">
-  <img src="Images\mountain-bongo-laikipia.jpg" alt="mountain bongo" class="image">
-  <div class="overlay">
-    <div class="text">
-        <h1>DIVERSE WILDLIFE</h1>
-        A home to many different species, each in their own environments<br>
-        form the rainforest to the dry grasslands of the Kenyan savannah<br>
-        and many more to be expored by you.
+      <div class="polaroid-container">
+        <div class="polaroid-content">
+            <div class="polaroid-image">
+              <img src="Images/mombasa-camel.jpg">
+            </div>
+            <div class="date">22/12/2022</div>
+            <div class="location">Lamu</div>
+            <div class="comment">A surprisingly smooth ride</div>
         </div>
-  </div>
+      </div>
 
-</div>
-
-
-<div class="container">
-  <img src="Images\nairobi.jpg" alt="nairobi city" class="image">
-  <div class="overlay">
-    <div class="text">
-        <h1>NAIROBI CITY</h1>
-        Now one of Africa's most influential cities, Nairobi is a vital commercial<br>
-         and financial regional hub, home to the regional headquarters of various major <br>
-         international companies and organizations and the only capital city housing a national park.
-
-
+      <div class="polaroid-container">
+        <div class="polaroid-content">
+            <div class="polaroid-image">
+              <img src="Images/mountain-bongo-laikipia.jpg">
+            </div>
+            <div class="date">26/04/2022</div>
+            <div class="location">Laikipia</div>
+            <div class="comment">A mountain bongo: rare sighting</div>
         </div>
-  </div>
+      </div>
 
-</div>
-
-
-<div class="container">
-  <img src="Images\mara-lion.jpg" alt="the big 5" class="image">
-  <div class="overlay">
-    <div class="text">
-        <h1>THE BIG 5</h1>
-        The term “Big Five” originally referred to the difficulty in hunting the<br>
-         lion, leopard, rhino, elephant and African buffalo. These five large African mammal <br>
-         species were known to be dangerous and it was considered a feat by trophy hunters to bring them home.
-
-
+      <div class="polaroid-container">
+        <div class="polaroid-content">
+            <div class="polaroid-image">
+              <img src="Images/maasai.jpg">
+            </div>
+            <div class="date">11/11/2021</div>
+            <div class="location">Maasai Mara</div>
+            <div class="comment">A happy maasai man</div>
         </div>
-  </div>
+      </div>
 
-</div>
-
-
-<div class="container">
-  <img src="Images\maasai-tourist.jpg" alt="Maasai tribe" class="image">
-  <div class="overlay">
-    <div class="text">
-        <h1>RICH CULTURE</h1>
-        Maasai culture is centred around the belief that God (called Engai) created cattle <br>
-        especially for them, and they are the custodians of all the world's cattle. <br>
-        For Maasai, life revolves around amassing and grazing large herds of cows .
-
-
+      <div class="polaroid-container">
+        <div class="polaroid-content">
+            <div class="polaroid-image">
+              <img src="Images/mombasa-art.jpg">
+            </div>
+            <div class="date">13/04/2020</div>
+            <div class="location">Diani</div>
+            <div class="comment">We bought a couple of these beauties</div>
         </div>
-  </div>
-
-</div>
-
-
-
-</div>
-
-    </body>
+      </div>
+    </div>
+  </body>
 </html>
+

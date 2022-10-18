@@ -23,7 +23,7 @@
     <nav>
       <div class="side_navbar">
         <a href="client-dashboard-home.php">Home</a>
-        <a href="explore-attractions.php">Explore attractions</a>
+        <a href="attractions.php" target="_blank">Explore attractions</a>
         <a class="active" href="booking-request.php">Booking requests</a>
         <a href="booking-history.php">Booking history</a>
         <a href="client-invoices.php">Invoices</a>
