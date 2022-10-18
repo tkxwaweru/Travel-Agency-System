@@ -29,27 +29,27 @@
         <div class="form">
         <div class="inputfield">
         <label>First Name</label>
-        <input name="fname" type="text" class="input" style=" border-radius: 30px;">
+        <input name="agent_fname" type="text" class="input" style=" border-radius: 30px;">
         </div>  
 
         <div class="inputfield">
         <label>Last Name</label>
-        <input name="lname" type="text" class="input" style=" border-radius: 30px;">
+        <input name="agent_lname" type="text" class="input" style=" border-radius: 30px;">
         </div>  
 
         <div class="inputfield">
         <label>Phone Number</label>
-        <input name="pnumber" type="text" class="input" style=" border-radius: 30px;">
+        <input name="agent_phonenumber" type="text" class="input" style=" border-radius: 30px;">
         </div>  
 
         <div class="inputfield">
         <label>Email</label>
-        <input name="email" type="email" class="input" style=" border-radius: 30px;">
+        <input name="agent_email" type="email" class="input" style=" border-radius: 30px;">
         </div>  
 
         <div class="inputfield">
         <label>Password</label>
-        <input name="password" type="password" class="input" style=" border-radius: 30px;">
+        <input name="agent_password" type="password" class="input" style=" border-radius: 30px;">
         </div>  
      
         <div class="inputfield">
