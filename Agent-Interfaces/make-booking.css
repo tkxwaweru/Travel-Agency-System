@@ -1,35 +1,15 @@
 .top{
-    display: flex;
-    padding-bottom: 50px;
+    height: 300px;
+    width: 80%;
+    position:relative;  
 }
 
 .invoice{
-    margin-left: 10px;
-    margin-top: 25px;
-    width: 20%;
-}
-
-.flight{
-    margin-left: 180px;
-    padding-bottom: 50px;
-    width: 30%;
-    margin-top: 50px;
-    height: 270px;
-    background-image: url(../Index/Images/Flight\ Peace\ _\ Sky\ aesthetic\,\ Travel\ aesthetic\,\ Dream\ vision\ board\ in\ 2022\ _\ Sky\ aesthetic\,\ Sunset\ pictures\,\ Travel\ aesthetic.jfif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    
-}
-.hotel{
-    margin-left: 200px;
-    padding-bottom: 50px;
-    width: 30%;
-    margin-top: 50px;
-    height: 270px;
-    background-image: url(../Index/Images/hotel5.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-right: 10px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    padding-top: 100px;
 }
 
 
@@ -37,6 +17,9 @@ h4{
     color: black;
     text-align: center;
     margin-top: 45%;
+}
+.icons{
+  display: flex;
 }
 
 
@@ -122,6 +105,7 @@ h4{
     font-size: 20px;
     margin-bottom: 10px;
 }
+
  
 
 
@@ -335,6 +319,22 @@ body{
   display: flex;
   align-items: center;
 }
+.make-booking{
+  display: flex;
+}
+.make-booking-title{
+  margin-top: 10px;
+  padding-right: 10%;
+}
+.make-booking > div > a > button{
+  background: #bc9e7d;
+  border: solid black 1px;
+}
+.make-booking > div > a > button:hover{
+  background-color: white;
+    color: #D2B48C;
+}
+
 .container{
   margin-top: 10px;
   display: flex;

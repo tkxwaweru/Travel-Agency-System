@@ -15,6 +15,7 @@
       <span>Dashboard</span>
     </div>
     <div class="header-icons">
+      
       <div class="account">
         <h4><h4><?php  include("../Processes/agent-login-process.php"); ?><?php  echo $_SESSION['agent_email']; ?></h4></h4>
       </div>
@@ -27,6 +28,7 @@
         <a class="active" href="agentHome.php">Home</a>
         <a href="clients.php">Clients</a>
         <a href="make-booking.php">Make Booking</a>
+        <a href="booking-requests.php">Booking Requests</a>
         <a href="booking-history.php">Booking history</a>
         <a class="log-out-button" href="../Index/index.php">Log out</a>
       </div>
