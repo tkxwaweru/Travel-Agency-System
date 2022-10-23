@@ -295,7 +295,7 @@ h1 {
   /*font-family: "Poppins", sans-serif;*/
 }
 body{
-  background: white;
+  background: #aec6cf;
 }
 .header{
   display: flex;
@@ -303,7 +303,7 @@ body{
   justify-content: space-between;
   height: 60px;
   padding: 20px;
-  background: #bc9e7d;
+  background: white;
 }
 .title{
   display: flex;
@@ -327,12 +327,12 @@ body{
   padding-right: 10%;
 }
 .make-booking > div > a > button{
-  background: #bc9e7d;
+  background:white;
   border: solid black 1px;
 }
 .make-booking > div > a > button:hover{
   background-color: white;
-    color: #D2B48C;
+    color:#d5e5ff ;
 }
 
 .container{
@@ -351,7 +351,7 @@ nav{
   display: flex;
   flex-direction: column;
   height: 135vh;
-  background: #bc9e7d;
+  background: white;
 }
 .side_navbar span{
   color: gray;
@@ -370,11 +370,19 @@ nav{
   color: red;
 }
 .side_navbar a:hover{
-  background: #D2B48C;
+  background:  rgb(235, 235, 235);
 }
 .side_navbar .active{
-  background-color:#D2B48C ;
-  color: white;
+  background-color: #d5e5ff;
+    color: white;
+}
+#button{
+  background:white;
+  border: solid black 1px;
+}
+#button:hover{
+  background-color: white;
+  color:#d5e5ff ;
 }
 
 /*-------------------------------------------Main Body Section---------------------------------------*/

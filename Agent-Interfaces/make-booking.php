@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  
   <title>Make Booking</title>
   <link rel="stylesheet" href="make-booking.css">
   
@@ -43,10 +44,10 @@
         </div>
         
         <div class="icons">
-          <a href="https://www.expedia.com"> <button style="font-size:24px">Book Flight <i class="material-icons">flight</i></button></a>
-          
+         <a href="https://www.expedia.com"><button style="font-size:24px">Book Flight <i class="material-icons">flight</i></button></a>
+        
           <a href="https://www.booking.com"><button style="font-size:24px">Book Hotel <i class="material-icons">hotel</i></button></a>
-          
+          <a href="https://www.viator.com/Kenya-tours/Transfers-and-Ground-Transport/d801-g15"><button style="font-size:24px">Transport <i class="fa fa-automobile"></i></button></a>
         </div>
       </div>
         

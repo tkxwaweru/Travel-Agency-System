@@ -21,7 +21,7 @@
     /*font-family: "Poppins", sans-serif;*/
   }
   body{
-    background: white;
+    background:  #aec6cf;
   }
   .header{
     display: flex;
@@ -29,7 +29,7 @@
     justify-content: space-between;
     height: 60px;
     padding: 20px;
-    background: #bc9e7d;
+    background:white;
   }
   .title{
     display: flex;
@@ -61,10 +61,10 @@
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background:#bc9e7d;
+    background:white;
   }
   .side_navbar span{
-    color: #bc9e7d;
+    color: white;
     margin: 1rem 3rem;
     font-size: 12px;
   }
@@ -80,10 +80,10 @@
     color:red;
   }
   .side_navbar a:hover{
-    background: #D2B48C;
+    background: rgb(235, 235, 235);
   }
   .side_navbar .active{
-    background-color: #D2B48C;
+    background-color: #d5e5ff;
     color: white;
   }
   
@@ -98,7 +98,7 @@
     margin-top: 10px;
     border-radius: 8px;
     padding: 0.5rem 1rem 1rem 3rem;
-    background: #bc9e7d;
+    background: white;
   }
   .promo_card h1, .promo_card span, button{
     margin: 10px;
