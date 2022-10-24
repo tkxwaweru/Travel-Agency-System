@@ -43,7 +43,7 @@
         <br>
         <p><h3>Share one of your memorable travel experiences by filling the form below:</h3></p>
         <br>
-          <form action="" method="post">
+          <form action="../Processes/share-experiences-process.php" method="post">
             <div class="owner">
               <h3>Image</h3>
               <div class="input-field">
