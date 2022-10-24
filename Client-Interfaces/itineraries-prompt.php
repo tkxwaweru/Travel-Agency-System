@@ -43,7 +43,7 @@
         <br>
         <p><h3>Kindly enter your <b>client code</b> to view your itineraries:</h3></p>
         <br>
-          <form action="" method="post">
+          <form action="client-itineraries.php" method="post">
             <div class="owner">
               <h3>Client code:</h3>
               <div class="input-field">
