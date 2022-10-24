@@ -43,7 +43,7 @@
         <br>
         <p><h3>Kindly enter your <b>client code</b> to view your booking history:</h3></p>
         <br>
-          <form action="" method="post">
+          <form action="booking-history.php" method="post">
             <div class="owner">
               <h3>Client code:</h3>
               <div class="input-field">
@@ -52,7 +52,7 @@
             </div>
 
             <br>
-            <button type="submit" name="verify code">View booking history</button>
+            <button type="submit" name="verify_code">View booking history</button>
           </form>
     </div> 
     </div>
