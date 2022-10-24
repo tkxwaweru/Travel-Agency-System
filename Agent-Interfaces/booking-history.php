@@ -29,6 +29,8 @@
         <a href="make-booking.php">Make Booking</a>
         <a href="booking-requests.php">Booking Requests</a>
         <a class="active" href="booking-history.php">Booking history</a>
+        <a href="itinerary.php">Itinerary</a>
+        <a  href="agent-invoice.php">Invoice</a>
         <a class="log-out-button" href="../Index/index.php">Log out</a>
       </div>
     </nav>
@@ -38,16 +40,22 @@
       <div class="table">
         <table>
             <tr>
-                <th>Booking Date</th>
-                <th>Booking ID</th>
-                <th>Client ID</th>
-                <th>Depart</th>
-                <th>Destination</th>
-                <th>Depart Date</th>
-                <th>Return Date</th>
-                <th>Income</th>
+            <th>Client Code</th>
+            <th>Origin</th>
+            <th>Destination</th>
+            <th>Departure Date</th>
+            <th>Return Date</th>
+            <th>Flight Airline</th>
+            <th>Accomodation</th>
+            <th>Transportation</th>
+            <th>Total Cost</th>
+            <th>Agent Code</th>
+            <th>Generated At</th>
             </tr>
             <tr>
+                <td></td>
+                <td></td>
+                <td></td>
                 <td></td>
                 <td></td>
                 <td></td>

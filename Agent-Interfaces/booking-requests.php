@@ -30,6 +30,8 @@
         <a href="make-booking.php">Make Booking</a>
         <a class="active" href="booking-requests.php">Booking Requests</a>
         <a href="booking-history.php">Booking history</a>
+        <a href="itinerary.php">Itinerary</a>
+        <a  href="agent-invoice.php">Invoice</a>
         <a class="log-out-button" href="../Index/index.php">Log out</a>
       </div>
     </nav>
@@ -40,29 +42,22 @@
             <table>
                 <tr>
                     <th>Booking Request ID</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Phone Number</th>
-                    <th>Email</th>
-                    <th>ID/PP Number</th>
-                    <th>Flight Type</th>
-
-                    <th>City From</th>
+                    <th>Client Code</th>
+                    <th>Origin </th>
                     <th>Destination</th>
-                    <th>Flight Class</th>
-                    <th>Adults</th>
-                    <th>Children</th>
-                    <th>Infants</th>
-                    <th>Depart Date</th>
-                    <th>Return Date</th>
+                    <th>Traveller Information</th>
+                    <th>Preferred Flight Class</th>
+                    <th>Departure Date</th>
 
-                    <th>Accomodation Type</th>
-                    <th>Room Type</th>
-                    <th>Food Plan</th>
-                    <th>Transport Type</th>
-                    <th>Bed Type</th>
-                    <th>Hotel Rating</th>
-                    <th>Description</th>
+                    <th>Return Date</th>
+                    <th>Book Accomodation</th>
+                    <th>Accomodation Description</th>
+                    <th>Book Transportation</th>
+                    <th>Transportation Description</th>
+                    <th>Agent Code</th>
+                    <th>Is Handled</th>
+
+                   
                 </tr>
                 <tr>
                     <td></td>
@@ -79,14 +74,8 @@
                     <td></td>
                     <td></td>
                     <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                  
+                    
                 </tr>
             </table>
         </div>
