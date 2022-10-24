@@ -14,7 +14,7 @@
       <div class="registration-form">
         <div class="form-content">
           <h2>Registration</h2>
-          <form action="../Processes/registration-process.php" method="post"> 
+          <form action="../Processes/clientregistration-process.php" method="post"> 
             <div class="input">
               <span>First name</span>
               <input type="text" id="first_name" name="client_fname" required>
