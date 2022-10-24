@@ -4,8 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Booking History</title>
-  <link rel="stylesheet" href="agentHome.css" />
-  <link rel="stylesheet" href="clients.css" />
+  <link rel="stylesheet" href="booking-history.css" />
   <!-- Font Awesome Cdn Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
 </head>
