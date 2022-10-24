@@ -128,7 +128,7 @@
             <div class="owner">
               <h3>Transportation description</h3>
               <div class="input-field">
-                <textarea id="accomodationDescription" name="accomodation_description" rows="4" cols="100" placeholder="Tell us whatever you can regarding how and where you would like to be transported. e.g. to and from where, the preferred type of car e.g. sedan, SUV & the capacity of the vehicle"></textarea>
+                <textarea id="transportationDescription" name="transportation_description" rows="4" cols="100" placeholder="Tell us whatever you can regarding how and where you would like to be transported. e.g. to and from where, the preferred type of car e.g. sedan, SUV & the capacity of the vehicle"></textarea>
               </div>
             </div>
 
