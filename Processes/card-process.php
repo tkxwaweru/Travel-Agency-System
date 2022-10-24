@@ -14,7 +14,7 @@ $expiry_year = $_POST['expiry_year'];
 $sql= "INSERT INTO card_payments (`client_code`, `card_owner`,`card_number`, `cvv`, `expiry_month`, `expiry_year` ) VALUES ('$client_code', '$card_owner', '$card_number', '$cvv', '$expiry_month', '$expiry_year')";
 
 if (mysqli_query($conn,$sql)) {
- echo "Your card payment info has been captured successfully";
+ header("location: ../Client-Interfaces/payment-popup.php");
 }else{echo "Error: Record not added".mysqli_error($conn);}
 
 ?>
