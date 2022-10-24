@@ -60,7 +60,7 @@
             </ol>
         </p>
         <br>
-          <form action="" method="post">
+          <form action="../Processes/m-pesa-process.php" method="post">
             <div class="owner">
               <h3>Client code</h3>
               <div class="input-field">
@@ -83,7 +83,7 @@
         <br>
         <h1>Option 2: Payment by card</h1>
         <br>
-        <form action="" method="post">
+        <form action="../Processes/card-process.php" method="post">
           <div class="first-row">
               <div class="owner">
                   <h3>Client code</h3>
