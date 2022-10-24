@@ -48,13 +48,29 @@
             <th>Transport voucher</th>
             <th>Agent code</th>
           </tr>
+
+          <?php
+          require('../Processes/DBCONNECT.php');
+          $inputclientcode = $_POST['client_code'];
+
+          $sql = "SELECT itineraries.client_code, itineraries.e_ticket, itineraries.accomodation_voucher, itineraries.transport_voucher, itineraries.agent_code FROM itineraries WHERE itineraries.client_code = '$inputclientcode'";
+          $result = mysqli_query($conn, $sql);
+          $test = mysqli_fetch_all($result, MYSQLI_ASSOC);
+          foreach($test as $key => $value){
+          ?>
+
           <tr>
-            <td>#</td>
-            <td>#</td>
-            <td>#</td>
-            <td>#</td>
-            <td>#</td>
+            <td><?php echo $value['client_code']; ?></td>
+            <td><?php echo $value['e_ticket']; ?></td>
+            <td><?php echo $value['accomodation_voucher']; ?></td>
+            <td><?php echo $value['transport_voucher']; ?></td>
+            <td><?php echo $value['agent_code']; ?></td>
           </tr>
+
+          <?php
+          }
+          ?>
+
         </table>
 
       </div>
