@@ -40,6 +40,7 @@
       <div class="table">
         <table>
             <tr>
+            <th>Booking ID</th>
             <th>Client Code</th>
             <th>Origin</th>
             <th>Destination</th>
@@ -52,19 +53,36 @@
             <th>Agent Code</th>
             <th>Generated At</th>
             </tr>
+
+            <?php
+              require('../Processes/DBCONNECT.php');
+
+              $agent_code = $_POST['agent_code'];
+              
+              $sql = "SELECT bookings.booking_id, bookings.client_code, bookings.origin, bookings.destination, bookings.departure_date, bookings.return_date, bookings.flight_airline, bookings.accomodation, bookings.transportation, bookings.total_cost, bookings.agent_code, bookings.`generated at` from bookings WHERE bookings.agent_code='$agent_code'";
+              $result = mysqli_query($conn, $sql);
+              $test = mysqli_fetch_all($result, MYSQLI_ASSOC);
+              foreach ($test as $key => $value){
+            ?>
+
+
             <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td><?php echo $value['booking_id'] ?></td>
+                <td><?php echo $value['client_code'] ?></td>
+                <td><?php echo $value['origin'] ?></td>
+                <td><?php echo $value['destination'] ?></td>
+                <td><?php echo $value['departure_date'] ?></td>
+                <td><?php echo $value['return_date'] ?></td>
+                <td><?php echo $value['flight_airline'] ?></td>
+                <td><?php echo $value['accomodation'] ?></td>
+                <td><?php echo $value['transportation'] ?></td>
+                <td><?php echo $value['total_cost'] ?></td>
+                <td><?php echo $value['agent_code'] ?></td>
+                <td><?php echo $value['generated at'] ?></td>
             </tr>
+            <?php
+              } 
+           ?>
         </table>
     </div>
 
