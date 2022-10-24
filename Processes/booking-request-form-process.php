@@ -17,7 +17,7 @@ $agent_code = $_POST['agent_code'];
 $sql= "INSERT INTO booking_requests (`client_code`, `origin`, `destination`, `traveller_information`, `preferred_flight_class`, `departure_date`, `return_date`, `book_accomodation`, `accomodation_description`, `book_transportation`, `transportation_description`, `agent_code`) VALUES ('$client_code', '$origin', '$destination', '$traveller_information', '$preferred_flight_class', '$departure_date', '$return_date', '$book_accomodation', '$accomodation_description', '$book_transportation', '$transportation_description', '$agent_code')";
 
 if (mysqli_query($conn,$sql)) {
- echo "Your booking request info has been captured successfully";
+ header("location: ../Client-Interfaces/booking-request-popup.php");
 }else{echo "Error: Record not added".mysqli_error($conn);}
 
 ?>
