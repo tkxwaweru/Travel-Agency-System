@@ -43,7 +43,7 @@
         <br>
         <p><h3>Kindly enter your email address below to check your <b>client code</b> and agent's <b>agent code</b>:</h3></p>
         <br>
-          <form action="" method="post">
+          <form action="code-information.php" method="post">
             <div class="owner">
               <h3>Email:</h3>
               <div class="input-field">
