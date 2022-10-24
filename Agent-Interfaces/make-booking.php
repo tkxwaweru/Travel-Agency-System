@@ -82,7 +82,12 @@
                 
                 <input type="number" id="input-text" name="total_cost" placeholder="Total Cost" style="width: 100%;"><br><br><br>
 
-                <input type="submit" name="make-booking"  value="Make Booking" id="button">
+                <input type="submit" name="make-booking"  value="Make Booking" id="button" style=
+    "width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #aec6cf;
+    text-align: center;">
             </form>
         </div>
             
