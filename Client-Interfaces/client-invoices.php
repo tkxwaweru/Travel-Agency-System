@@ -50,15 +50,31 @@
             <th>Service charge</th>
             <th>Subtotal</th>
           </tr>
+
+          <?php
+          require('../Processes/DBCONNECT.php');
+          $inputclientcode = $_POST['client_code'];
+
+          $sql = "SELECT invoices.client_code, invoices.flight_total, invoices.accomodation_total, invoices.transportation_total, invoices.service_total, invoices.service_charge, invoices.subtotal FROM invoices WHERE invoices.client_code = '$inputclientcode'";
+          $result = mysqli_query($conn, $sql);
+          $test = mysqli_fetch_all($result, MYSQLI_ASSOC);
+          foreach($test as $key => $value){
+          ?>
+
           <tr>
-            <td>#</td>
-            <td>#</td>
-            <td>#</td>
-            <td>#</td>
-            <td>#</td>
-            <td>#</td>
-            <td>#</td>
+            <td><?php echo $value['client_code']; ?></td>
+            <td><?php echo $value['flight_total']; ?></td>
+            <td><?php echo $value['accomodation_total']; ?></td>
+            <td><?php echo $value['transportation_total']; ?></td>
+            <td><?php echo $value['service_total']; ?></td>
+            <td><?php echo $value['service_charge']; ?></td>
+            <td><?php echo $value['subtotal']; ?></td>
           </tr>
+
+          <?php
+          }
+          ?>
+
         </table>
 
       </div>
