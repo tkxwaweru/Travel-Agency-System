@@ -28,10 +28,10 @@
     <nav>
       <div class="side_navbar">
         <a href="agentHome.php">Home</a>
-        <a href="clients.php">Clients</a>
+        <a href="clients-prompt.php">Clients</a>
         <a class="active" href="make-booking.php">Make Booking</a> 
-        <a href="booking-requests.php">Booking Requests</a>
-        <a href="booking-history.php">Booking history</a>
+        <a href="booking-requests-prompt.php">Booking Requests</a>
+        <a href="booking-history-prompt.php">Booking history</a>
         <a href="itinerary.php">Itinerary</a>
         <a  href="agent-invoice.php">Invoice</a>
         <a class="log-out-button" href="../Index/index.php">Log out</a>

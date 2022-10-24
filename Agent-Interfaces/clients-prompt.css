@@ -1,0 +1,47 @@
+/*table, tr, th{
+    border: 1px solid black; 
+    border-collapse:collapse;
+}
+tr:nth-child(even){
+    background-color: gray;
+}*/
+/*@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Mr+Dafoe&display=swap');*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+    font-family: 'Kalam';
+   
+}
+
+.form-box{
+    position:absolute;
+    top:50%;
+    left:58%;
+    transform:translate(-50%,-50%);
+    background-color: white;
+    width: 500px;
+    padding: 50px;
+}
+#input-text{
+    width: 100%;
+    height: 40px;
+    padding:10px 0;
+    margin:5px 0;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    border-bottom: 1px solid rgb(20, 9, 9);
+    outline:none;
+    background: transparent;
+  }
+  ::placeholder{
+    color: black;
+  }
+  .button{
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #aec6cf;
+  }
+  .button:hover{
+    background-color: #798f97;
+  }
