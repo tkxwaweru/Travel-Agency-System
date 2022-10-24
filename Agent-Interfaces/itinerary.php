@@ -52,7 +52,12 @@
     <input type="file" id="input_text" name="transport voucher"style="width: 100%;"><br><br>
     <label for="itenary id">Agent Code</label>
     <input type="text" id="input-text" name="agent code" style="width: 100%;"><br><br>
-    <input type="submit" value="Submit" id="button">
+    <input type="submit" value="Submit" id="button" style=
+    "width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #aec6cf;
+    text-align: center;">
 
   </form>
 </div>
