@@ -9,7 +9,7 @@ if(isset($_POST['login'])){
     $email = $_POST['agent_email'];
     $password = $_POST['password'];
 
-    $sql = "SELECT * FROM `agents` WHERE `agent_code` ='$email' AND `agent_password` ='$password'";
+    $sql = "SELECT * FROM `agents` WHERE `agent_email` ='$email' AND `agent_password` ='$password'";
     $result = mysqli_query($conn, $sql);
 
 
