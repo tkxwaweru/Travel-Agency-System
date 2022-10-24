@@ -31,7 +31,7 @@
         <a class="active" href="booking-requests.php">Booking Requests</a>
         <a href="booking-history.php">Booking history</a>
         <a href="itinerary.php">Itinerary</a>
-        <a  href="agent-invoice.php">Invoice</a>
+        <a  href="invoice.php">Invoice</a>
         <a class="log-out-button" href="../Index/index.php">Log out</a>
       </div>
     </nav>
@@ -56,10 +56,12 @@
                     <th>Transportation Description</th>
                     <th>Agent Code</th>
                     <th>Is Handled</th>
+                    <th>Edit</th>
 
                    
                 </tr>
                 <tr>
+                    <td></td>
                     <td></td>
                     <td></td>
                     <td></td>

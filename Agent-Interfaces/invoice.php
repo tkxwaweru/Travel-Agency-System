@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Itenarary</title>
    
-    <link rel="stylesheet" href="itenerary.css"/>
+    <link rel="stylesheet" href="invoice.css">
+
 </head>
 <body>
 <header class="header">
@@ -28,8 +29,8 @@
         <a  href="make-booking.php">Make Booking</a> 
         <a href="booking-requests.php">Booking Requests</a>
         <a href="booking-history.php">Booking history</a>
-        <a class="active" href="itinerary.php">Itinerary</a>
-        <a  href="invoice.php">Invoice</a>
+        <a  href="itinerary.php">Itinerary</a>
+        <a class="active" href="invoice.php">Invoice</a>
         <a class="log-out-button" href="../Index/index.php">Log out</a>
       </div>
     </nav>
@@ -39,19 +40,23 @@
       
 <div class="top">
 <div class="invoice" id="invoice-form">
-            <h3>ITINERARIES</h3><br>
+            <h3>INVOICES</h3><br>
   <form action="">
 
-    <label for="itenary id">Client Code</label>
-    <input type="file" id="input_text" name="client code"  style="width: 100%;"><br><br>
-    <label for="itenary id">E_Ticket</label>
-    <input type="file" id="input_text" name="e ticket" style="width: 100%;"><br><br>
-    <label for="itenary id">Accomodation Voucher</label>
-    <input type="file" id="input_text" name="accomodation voucher" style="width: 100%;"><br><br>
-    <label for="itenary id">Transport Voucher</label>
-    <input type="file" id="input_text" name="transport voucher"style="width: 100%;"><br><br>
-    <label for="itenary id">Agent Code</label>
-    <input type="text" id="input-text" name="agent code" style="width: 100%;"><br><br>
+    <label for="client-code">Client Code</label>
+    <input type="text" id="input-text" name="client-code"style="width: 100%;"><br>
+    <label for="flight-total">Flight Total</label>
+    <input type="number" id="input-text" name="flight-total" style="width: 100%;"><br>
+    <label for="accomodation-total">Accomodation Total</label>
+    <input type="number" id="input-text" name="accomodation-total" style="width: 100%;"><br>
+    <label for="transport-total">Transportation Total</label>
+    <input type="number" id="input-text" name="transport-total" style="width: 100%;"><br>
+    <label for="service-total">Service Total</label>
+    <input type="number" id="input-text" name="service-total" style="width: 100%;"><br>
+    <label for="service-charge">Service Charge</label>
+    <input type="number" id="input-text" name="service-charge"  style="width: 100%;"><br>
+    <label for="subtotal">Subtotal</label>
+    <input type="number" id="input-text" name="subtotal"  style="width: 100%;"><br><br>
     <input type="submit" value="Submit" id="button">
 
   </form>

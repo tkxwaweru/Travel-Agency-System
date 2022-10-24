@@ -59,18 +59,30 @@
       <div class="top">
         
         <div class="invoice" id="invoice-form">
-            <h3>MAKE INVOICE</h3><br>   
+          
             <form action="">
                 
-                <input type="number" id="input-text" placeholder="Client ID" style="width: 100%;"><br>
+                <input type="number" id="input-text" name="client_code" placeholder="Client Code" style="width: 100%;"><br>
+
+                <input type="text" id="input-text" name="origin" placeholder="Origin" style="width: 100%;"><br>
+
+                <input type="text" id="input-text" name="destination" placeholder="Destination" style="width: 100%;"><br>
                 
-                <input type="number" id="input-text" id="fprice" placeholder="Flight Price" style="width: 100%"><br>
+                <label for="dDate" style="width: 20%; padding-right: 19%; color: gray;">Depart Date</label>
+                <input type="date" id="input-text" name="dDate" style="width: 60%"><br>
+
+                <label for="rDate" style="width: 20%; padding-right: 19%; color: gray;">Return Date</label>
+                <input type="date" id="input-text" name="rDate" style="width: 60%"><br>
                
-                <input type="number" name="hotel" id="input-text" placeholder="Hotel Price" style="width: 100%;"><br>
+                <input type="text" id="input-text" name="airline" placeholder="Flight Airline" style="width: 100%;"><br>
                
-                <input type="number" name="transport" id="input-text" placeholder="Transport Price" style="width: 100%;"><br><br>
-                <input type="submit" name="make-invoice"  value="Generate Invoice" id="button">
-                <input type="datetime" hidden>
+                <input type="text" id="input-text" name="transport" placeholder="Transportion" style="width: 100%;"><br>
+
+                <input type="text" id="input-text" name="agent_code" placeholder="Agent Code" style="width: 100%;"><br>
+                
+                <input type="number" id="input-text" name="total_cost" placeholder="Total Cost" style="width: 100%;"><br><br><br>
+
+                <input type="submit" name="make-booking"  value="Make Booking" id="button">
             </form>
         </div>
             
