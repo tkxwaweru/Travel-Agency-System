@@ -50,16 +50,31 @@
                     <th>Phone Number</th>
                     <th>Email</th>
                 </tr>
+
+                <?php
+                  require('../Processes/DBCONNECT.php');
+                  $agent_code = $_POST['agent_code'];
+
+                  $sql = "SELECT clients.client_code, clients.client_fname, clients.client_lname, clients.national_id, clients.age, clients.sex, clients.phone_number, clients.phone_number, clients.client_email FROM clients WHERE clients.agent_code = '$agent_code'";
+                  $result = mysqli_query($conn, $sql);
+                  $test = mysqli_fetch_all($result, MYSQLI_ASSOC);
+                  foreach($test as $key => $value){
+                  
+
+                ?>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><?php echo $value['client_code'] ?></td>
+                    <td><?php echo $value['client_fname'] ?></td>
+                    <td><?php echo $value['client_lname'] ?></td>
+                    <td><?php echo $value['national_id'] ?></td>
+                    <td><?php echo $value['age'] ?></td>
+                    <td><?php echo $value['sex'] ?></td>
+                    <td><?php echo $value['phone_number'] ?></td>
+                    <td><?php echo $value['client_email'] ?></td>
                 </tr>
+                <?php
+                  }
+                ?>
             </table>
         </div>
 
