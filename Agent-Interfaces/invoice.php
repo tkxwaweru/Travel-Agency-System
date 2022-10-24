@@ -57,7 +57,12 @@
     <input type="number" id="input-text" name="service-charge"  style="width: 100%;"><br>
     <label for="subtotal">Subtotal</label>
     <input type="number" id="input-text" name="subtotal"  style="width: 100%;"><br><br>
-    <input type="submit" value="Submit" id="button">
+    <input type="submit" value="Submit" id="button" style=
+    "width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #aec6cf;
+    text-align: center;">
 
   </form>
 </div>
