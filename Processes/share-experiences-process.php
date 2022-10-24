@@ -13,7 +13,7 @@
             $sql = "INSERT INTO experiences (image, date, location, comment) VALUES ('$image','$date','$location','$comment')";
 
         if(mysqli_query($conn, $sql)){
-             echo "Experience captured successfully";
+             header("location: ../Client-Interfaces/experiences-popup.php");
            
         }else{
             echo "Error: Experience not captured".mysqli_error($conn);
