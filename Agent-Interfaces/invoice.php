@@ -41,22 +41,19 @@
 <div class="top">
 <div class="invoice" id="invoice-form">
             <h3>INVOICES</h3><br>
-  <form action="">
+  <form action="../Processes/invoice-process.php" method="post">
 
-    <label for="client-code">Client Code</label>
-    <input type="text" id="input-text" name="client-code"style="width: 100%;"><br>
+  <label for="client-code">Client Code</label>
+    <input type="text" id="input-text" name="client-code"style="width: 100%;" required><br>
+    <label for="agent-code">Agent Code</label>
+    <input type="text" id="input-text" name="agent-code"style="width: 100%;" required><br>
     <label for="flight-total">Flight Total</label>
-    <input type="number" id="input-text" name="flight-total" style="width: 100%;"><br>
+    <input type="number" id="input-text" name="flight-total" style="width: 100%;" required><br>
     <label for="accomodation-total">Accomodation Total</label>
-    <input type="number" id="input-text" name="accomodation-total" style="width: 100%;"><br>
+    <input type="number" id="input-text" name="accomodation-total" style="width: 100%;" required><br>
     <label for="transport-total">Transportation Total</label>
-    <input type="number" id="input-text" name="transport-total" style="width: 100%;"><br>
-    <label for="service-total">Service Total</label>
-    <input type="number" id="input-text" name="service-total" style="width: 100%;"><br>
-    <label for="service-charge">Service Charge</label>
-    <input type="number" id="input-text" name="service-charge"  style="width: 100%;"><br>
-    <label for="subtotal">Subtotal</label>
-    <input type="number" id="input-text" name="subtotal"  style="width: 100%;"><br><br>
+    <input type="number" id="input-text" name="transport-total" style="width: 100%;" required><br>
+
     <input type="submit" value="Submit" id="button" style=
     "width: 100px;
     padding: 10px;
