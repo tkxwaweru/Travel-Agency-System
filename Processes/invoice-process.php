@@ -10,10 +10,10 @@
     $service_total = $flight_total + $accomodation_total + $transport_total;
     $service_charge = $service_total * 0.1;
     $subtotal = $service_total + $service_charge;
-    //$subtotal = $_POST['subtotal'];
+    
 
-    $sql = "INSERT INTO invoices(client_code, flight_total, accomodation_total, transportation_total, service_total, service_charge, subtotal)
-            VALUES('$client_code', '$flight_total', '$accomodation_total', '$transport_total', '$service_total', '$service_charge', '$subtotal')";
+    $sql = "INSERT INTO invoices(client_code, agent_code, flight_total, accomodation_total, transportation_total, service_total, service_charge, subtotal)
+            VALUES('$client_code','$agent_code', '$flight_total', '$accomodation_total', '$transport_total', '$service_total', '$service_charge', '$subtotal')";
 
 
     if (mysqli_query($conn,$sql)) {
