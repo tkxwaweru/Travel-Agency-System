@@ -33,7 +33,8 @@
         <a href="booking-requests-prompt.php">Booking Requests</a>
         <a href="booking-history-prompt.php">Booking history</a>
         <a href="itinerary.php">Itinerary</a>
-        <a  href="agent-invoice.php">Invoice</a>
+        <a href="agent-invoice.php">Invoice</a>
+        <a href="view-invoices-prompt.php">View Invoices</a>
         <a class="log-out-button" href="../Index/index.php">Log out</a>
       </div>
     </nav>
@@ -60,9 +61,9 @@
         
         <div class="invoice" id="invoice-form">
           
-            <form action="../Processes/make-booking-process.php" method="post">
+            <form action="">
                 
-                <input type="text" id="input-text" name="client_code" placeholder="Client Code" style="width: 100%;"><br>
+                <input type="number" id="input-text" name="client_code" placeholder="Client Code" style="width: 100%;"><br>
 
                 <input type="text" id="input-text" name="origin" placeholder="Origin" style="width: 100%;"><br>
 
@@ -82,12 +83,13 @@
                 
                 <input type="number" id="input-text" name="total_cost" placeholder="Total Cost" style="width: 100%;"><br><br><br>
 
-                <input type="submit" name="make-booking"  value="Make Booking" id="button" style=
-    "width: 100px;
-    padding: 10px;
-    margin-top: 10px;
-    background-color: #aec6cf;
-    text-align: center;">
+                <input type="submit" name="make-booking"  value="Make Booking" id="button"
+                style=
+                    "width: 100px;
+                    padding: 10px;
+                    margin-top: 10px;
+                    background-color: #aec6cf;
+                    text-align: center;">
             </form>
         </div>
             
