@@ -30,7 +30,6 @@
         <a href="booking-history-prompt.php">Booking history</a>
         <a class="active" href="itinerary.php">Itinerary</a>
         <a  href="invoice.php">Invoice</a>
-        <a  href="view-invoices-prompt.php">View Invoices</a>
         <a class="log-out-button" href="../Index/index.php">Log out</a>
       </div>
     </nav>
@@ -41,20 +40,19 @@
 <div class="top">
 <div class="invoice" id="invoice-form">
             <h3>ITINERARIES</h3><br>
-  <form action="">
+  <form action="../Processes/itinerary-process.php" method="post">
 
     <label for="itenary id">Client Code</label>
-    <input type="file" id="input_text" name="client code"  style="width: 100%;"><br><br>
+    <input type="file" id="input_text" name="client_code"  style="width: 100%;" required><br><br>
     <label for="itenary id">E_Ticket</label>
-    <input type="file" id="input_text" name="e ticket" style="width: 100%;"><br><br>
+    <input type="file" id="input_text" name="e_ticket" style="width: 100%;" required ><br><br>
     <label for="itenary id">Accomodation Voucher</label>
-    <input type="file" id="input_text" name="accomodation voucher" style="width: 100%;"><br><br>
+    <input type="file" id="input_text" name="accomodation_voucher" style="width: 100%;" required><br><br>
     <label for="itenary id">Transport Voucher</label>
-    <input type="file" id="input_text" name="transport voucher"style="width: 100%;"><br><br>
+    <input type="file" id="input_text" name="transport_voucher"style="width: 100%;" required><br><br>
     <label for="itenary id">Agent Code</label>
-    <input type="text" id="input-text" name="agent code" style="width: 100%;"><br><br>
-    <input type="submit" value="Submit" id="button" 
-    style=
+    <input type="text" id="input-text" name="agent_code" style="width: 100%;" required><br><br>
+    <input type="submit" value="Submit" id="button" style=
     "width: 100px;
     padding: 10px;
     margin-top: 10px;
