@@ -32,13 +32,13 @@
         <a href="booking-history-prompt.php">Booking history</a>
         <a href="itinerary.php">Itinerary</a>
         <a  href="invoice.php">Invoice</a>
-        <a  class="active"  href="view-invoices-prompt.php">Invoice</a>
+        <a  class="active"  href="view-invoices-prompt.php">View Invoices</a>
         <a class="log-out-button" href="../Index/index.php">Log out</a>
       </div>
     </nav>
 
     <div class="main-body">
-      <h2>Assigned Clients</h2><br><br>
+      <h2>Invoices</h2><br><br>
         <div class="table">
             <table>
                 <tr>
@@ -56,7 +56,7 @@
                   require('../Processes/DBCONNECT.php');
                   $agent_code = $_POST['agent_code'];
 
-                  $sql = "SELECT invoice.client_code, invoice.agent_code, invoice.flight_total, invoice.accomodation_total, invoice.transportation_total, invoice.service_total, invoice.service_charge, invoice.subtotal FROM invoice WHERE clients.agent_code = '$agent_code'";
+                  $sql = "SELECT invoices.client_code, invoices.agent_code, invoices.flight_total, invoices.accomodation_total, invoices.transportation_total, invoices.service_total, invoices.service_charge, invoices.subtotal FROM invoices WHERE invoices.agent_code = '$agent_code'";
                   $result = mysqli_query($conn, $sql);
                   $test = mysqli_fetch_all($result, MYSQLI_ASSOC);
                   foreach($test as $key => $value){
