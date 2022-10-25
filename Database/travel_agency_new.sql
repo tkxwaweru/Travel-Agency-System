@@ -381,6 +381,8 @@ ALTER TABLE `itineraries`
 --
 ALTER TABLE `mpesa_payments`
   MODIFY `payment_id` int(6) NOT NULL AUTO_INCREMENT;
+  
+RENAME TABLE admin to admins;  
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
