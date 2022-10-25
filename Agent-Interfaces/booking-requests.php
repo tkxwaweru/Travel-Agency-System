@@ -32,7 +32,6 @@
         <a href="booking-history-prompt.php">Booking history</a>
         <a href="itinerary.php">Itinerary</a>
         <a  href="invoice.php">Invoice</a>
-        <a  href="view-invoices-prompt.php">View Invoices</a>
         <a class="log-out-button" href="../Index/index.php">Log out</a>
       </div>
     </nav>
@@ -61,25 +60,41 @@
 
                    
                 </tr>
+
+                <?php
+                  require('../Processes/DBCONNECT.php');
+                  $agent_code = $_POST['agent_code'];
+
+                  $sql = "SELECT * FROM booking_requests WHERE booking_requests.agent_code ='$agent_code'";
+
+                  $result = mysqli_query($conn, $sql);
+                  $test = mysqli_fetch_all($result, MYSQLI_ASSOC);
+                  foreach($test as $key => $value){
+                  
+
+                ?>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><?php echo $value['booking_request_id'] ?></td>
+                    <td><?php echo $value['client_code'] ?></td>
+                    <td><?php echo $value['origin'] ?></td>
+                    <td><?php echo $value['destination'] ?></td>
+                    <td><?php echo $value['traveller_information'] ?></td>
+                    <td><?php echo $value['preferred_flight_class'] ?></td>
+                    <td><?php echo $value['departure_date'] ?></td>
+                    <td><?php echo $value['return_date'] ?></td>
+                    <td><?php echo $value['book_accomodation'] ?></td>
+                    <td><?php echo $value['accomodation_description'] ?></td>
+                    <td><?php echo $value['book_transportation'] ?></td>
+                    <td><?php echo $value['transportation_description'] ?></td>
+                    <td><?php echo $value['agent_code'] ?></td>
+                    <td><?php echo $value['is_handled'] ?></td>
+                    
                   
                     
                 </tr>
+                <?php
+              } 
+           ?>
             </table>
         </div>
 
