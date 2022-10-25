@@ -18,7 +18,7 @@
 
     if (mysqli_query($conn,$sql)) {
 
-    header("location: ../Agent-Interfaces/make-booking.php");
+    header("location: ../Agent-Interfaces/make-booking.php?&&SUCCESSFULL");
    
    }else{echo "Error: Record not added".mysqli_error($conn);}
 
