@@ -32,16 +32,15 @@
         <a href="booking-history-prompt.php">Booking history</a>
         <a href="itinerary.php">Itinerary</a>
         <a  href="invoice.php">Invoice</a>
-        <a  href="view-invoices-prompt.php">View Invoices</a>
         <a class="log-out-button" href="../Index/index.php">Log out</a>
       </div>
     </nav>
 
     <div class="main-body">
       <div class="form-box">
-        <form action="">
+        <form action="booking-requests.php" method="post">
             <h3>Enter Your Agent Code</h3><br>
-            <input type="text" name="agebt_code" id="input-text"><br>
+            <input type="text" name="agent_code" id="input-text"><br>
             <input type="submit" value="Submit" class="button"> <br><br>
         </form>
       </div>
