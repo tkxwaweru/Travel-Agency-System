@@ -62,7 +62,7 @@
           
             <form action="../Processes/make-booking-process.php" method="post">
                 
-                <input type="number" id="input-text" name="client_code" placeholder="Client Code" style="width: 100%;"><br>
+                <input type="text" id="input-text" name="client_code" placeholder="Client Code" style="width: 100%;"><br>
 
                 <input type="text" id="input-text" name="origin" placeholder="Origin" style="width: 100%;"><br>
 
