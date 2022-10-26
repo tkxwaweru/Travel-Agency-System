@@ -91,7 +91,7 @@
 
                     ?></td>   
                     
-                    <td><a href="deleteagent.php"?delete="<?php $value["agent_id"] ?>"> <button type='Submit' class= 'button'>Delete</button></a></td>
+                    <td><a href="deleteagent.php"?delete="<?php $value["agent_id"] ?>"> <input type='checkbox' > </a></td>
                     
                 </tr>
                 <?php }
