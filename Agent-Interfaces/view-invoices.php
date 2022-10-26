@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Clients</title>
+  <title>Invoices</title>
   <link rel="stylesheet" href="agentHome.css" />
   <link rel="stylesheet" href="clients.css">
   <!-- Font Awesome Cdn Link -->
