@@ -6,7 +6,7 @@ $admin_email = $_POST['admin_email'];
 $admin_password = $_POST['admin_password'];
 
 
-$sql= "INSERT INTO `admin`(`admin_name`, `admin_email`, `admin_password`) 
+$sql= "INSERT INTO `admins`(`admin_name`, `admin_email`, `admin_password`) 
 VALUES ('$admin_name', '$admin_email', '$admin_password')";
 
 
