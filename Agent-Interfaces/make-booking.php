@@ -47,10 +47,10 @@
         </div>
         
         <div class="icons">
-         <a href="https://www.expedia.com"><button style="font-size:24px">Book Flight <i class="material-icons">flight</i></button></a>
+         <a href="https://www.expedia.com" target="_blank"><button style="font-size:24px">Book Flight <i class="material-icons">flight</i></button></a>
         
-          <a href="https://www.booking.com"><button style="font-size:24px">Book Hotel <i class="material-icons">hotel</i></button></a>
-          <a href="https://www.viator.com/Kenya-tours/Transfers-and-Ground-Transport/d801-g15"><button style="font-size:24px">Transport <i class="fa fa-automobile"></i></button></a>
+          <a href="https://www.booking.com" target="_blank"><button style="font-size:24px">Book Hotel <i class="material-icons">hotel</i></button></a>
+          <a href="https://www.viator.com/Kenya-tours/Transfers-and-Ground-Transport/d801-g15" target="_blank"><button style="font-size:24px">Transport <i class="fa fa-automobile"></i></button></a>
         </div>
       </div>
         
@@ -78,6 +78,8 @@
                 <input type="text" id="input-text" name="airline" placeholder="Flight Airline" style="width: 100%;"><br>
                
                 <input type="text" id="input-text" name="transport" placeholder="Transportion" style="width: 100%;"><br>
+              
+                <input type="text" id="input-text" name="accomodation" placeholder="Accomodation" style="width: 100%;"><br>
 
                 <input type="text" id="input-text" name="agent_code" placeholder="Agent Code" style="width: 100%;"><br>
                 
