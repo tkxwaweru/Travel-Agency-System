@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Clients</title>
+  <title>Booking History</title>
   <link rel="stylesheet" href="agentHome.css" />
   <link rel="stylesheet" href="clients-prompt.css">
   <!-- Font Awesome Cdn Link -->
@@ -32,6 +32,7 @@
         <a class="active" href="booking-history-prompt.php">Booking history</a>
         <a href="itinerary.php">Itinerary</a>
         <a  href="invoice.php">Invoice</a>
+        <a  href="view-invoices-prompt.php">View Invoices</a>
         <a  href="payments-prompt.php">Payments</a>
         <a class="log-out-button" href="../Index/index.php">Log out</a>
       </div>
