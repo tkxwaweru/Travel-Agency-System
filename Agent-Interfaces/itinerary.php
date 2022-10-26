@@ -45,7 +45,7 @@
   <form action="../Processes/itinerary-process.php" method="post">
 
     <label for="itenary id">Client Code</label>
-    <input type="text" id="input_text" name="client_code"  style="width: 100%;" required><br><br>
+    <input type="text" id="input-text" name="client_code"  style="width: 100%;" required><br><br>
     <label for="itenary id">E_Ticket</label>
     <input type="file" id="input_text" name="e_ticket" style="width: 100%;" required ><br><br>
     <label for="itenary id">Accomodation Voucher</label>
