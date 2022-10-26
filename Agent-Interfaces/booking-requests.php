@@ -32,6 +32,7 @@
         <a href="booking-history-prompt.php">Booking history</a>
         <a href="itinerary.php">Itinerary</a>
         <a  href="invoice.php">Invoice</a>
+        <a  href="view-invoice-prompt.php">View Invoices</a>
         <a  href="payments-prompt.php">Payments</a>
         <a class="log-out-button" href="../Index/index.php">Log out</a>
       </div>
