@@ -31,7 +31,7 @@ if(isset($_POST['login'])){
     if($row = mysqli_fetch_assoc($result)){
         $password = $row['admin_password'];
         $_SESSION['admin_email'] = $email;
-        header("location:..\Admin-Interface\Admin.php");
+        header("location:..\Admin-Interface\Admin_test.php");
     }
     else{
         header("location:..\Admin-Interface\admin-login.php?&&&incorrect details");
