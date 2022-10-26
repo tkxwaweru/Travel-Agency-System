@@ -13,8 +13,8 @@
     $agent_code = $_POST['agent_code'];
     $total_cost = $_POST['total_cost'];
 
-    $sql = "INSERT INTO bookings(client_code, origin, destination, departure_date, return_date, flight_airline, transportation, accomodation, total_cost, agent_code)
-            VALUES('$client_code', '$origin', '$destination', '$depart_date', '$return_date', '$airline', '$transport','$accomodation', '$total_cost', '$agent_code')";
+    $sql = "INSERT INTO bookings(client_code, origin, destination, departure_date, return_date, flight_airline, accomodation, transportation, total_cost, agent_code)
+            VALUES('$client_code', '$origin', '$destination', '$depart_date', '$return_date', '$airline', '$accomodation', '$transport', '$total_cost', '$agent_code')";
 
 
     if (mysqli_query($conn,$sql)) {
