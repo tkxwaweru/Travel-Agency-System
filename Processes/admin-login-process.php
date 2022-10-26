@@ -24,7 +24,7 @@ if(isset($_POST['login'])){
     $email = $_POST['admin_email'];
     $password = $_POST['password'];
 
-    $sql = "SELECT * FROM `admin` WHERE `admin_email` ='$email' AND `admin_password` ='$password'";
+    $sql = "SELECT * FROM `admins` WHERE `admin_email` ='$email' AND `admin_password` ='$password'";
     $result = mysqli_query($conn, $sql);
 
 
