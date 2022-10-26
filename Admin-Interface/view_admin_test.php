@@ -85,7 +85,7 @@
 
                     ?></td>   
                     
-                    <td><a href="deleteadmin.php"?delete="<?php $value["admin_id"] ?>"> <button type='Submit' class= 'button'>Delete</button></a></td>
+                    <td><a href="deleteadmin.php"?delete="<?php $value["admin_id"] ?>"> <input type='checkbox' > </a></td>
                     
                 </tr>
                 <?php }
