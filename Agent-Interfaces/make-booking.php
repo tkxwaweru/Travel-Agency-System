@@ -33,7 +33,7 @@
         <a href="booking-requests-prompt.php">Booking Requests</a>
         <a href="booking-history-prompt.php">Booking history</a>
         <a href="itinerary.php">Itinerary</a>
-        <a  href="agent-invoice.php">Invoice</a>
+        <a  href="invoice.php">Invoice</a>
         <a  href="payments-prompt.php">Payments</a>
         <a class="log-out-button" href="../Index/index.php">Log out</a>
       </div>
