@@ -45,7 +45,7 @@
         <p><h5>(These help our agents make a booking for you. Be as thorough as possible.)</h5></p>
         <br>
 
-          <form action="" method="post">
+          <form action="../Processes/booking-request-form-process.php" method="post">
 
             <div class="owner">
               <h3>Client code</h3>
