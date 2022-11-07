@@ -19,7 +19,7 @@
 
     if (mysqli_query($conn,$sql)) {
 
-    header("location: ../Agent-Interfaces/make-booking.php?&& SUCCESSFULL");
+    header("location: ../Agent-Interfaces/make-booking-popup.php");
    
    }else{echo "Error: Record not added".mysqli_error($conn);}
 
