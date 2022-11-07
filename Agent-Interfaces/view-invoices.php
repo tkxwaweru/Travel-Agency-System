@@ -51,6 +51,7 @@
                     <th>Service Total</th>
                     <th>Service Charge</th>
                     <th>Subtotal</th>
+                    <th>Edit</th>
                 </tr>
 
                 <?php
@@ -73,6 +74,7 @@
                     <td><?php echo $value['service_total'] ?></td>
                     <td><?php echo $value['service_charge'] ?></td>
                     <td><?php echo $value['subtotal'] ?></td>
+                    <td><button>Update</button></td>
                 </tr>
                 <?php
                   }
