@@ -28,14 +28,14 @@
     <nav>
       <div class="side_navbar">
         <a href="agentHome.php">Home</a>
-        <a href="clients-prompt.php">Clients</a>
+        <a href="clients-prompt.php"> Your Clients</a>
         <a class="active" href="make-booking.php">Make Booking</a> 
-        <a href="booking-requests-prompt.php">Booking Requests</a>
+        <a href="booking-requests-prompt.php" target="_blank">Booking Requests</a>
         <a href="booking-history-prompt.php">Booking history</a>
-        <a href="itinerary.php">Itinerary</a>
-        <a  href="invoice.php">Invoice</a>
-        <a  href="view-invoice-prompt.php">View Invoices</a>
-        <a  href="payments-prompt.php">Payments</a>
+        <a href="itinerary.php" target="_blank">Itinerary</a>
+        <a href="invoice.php"target="_blank">Invoice</a>
+        <a href="view-invoice-prompt.php" >View Invoices</a>
+        <a href="payments-prompt.php">Payments</a>
         <a class="log-out-button" href="agent-login.php">Log out</a>
       </div>
     </nav>
