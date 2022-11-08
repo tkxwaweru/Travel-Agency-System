@@ -25,7 +25,7 @@
     <nav>
       <div class="side_navbar">
         <a href="agentHome.php">Home</a>
-        <a href="clients.php">Clients</a>
+        <a href="clients.php">Your Clients</a>
         <a  href="make-booking.php">Make Booking</a> 
         <a href="booking-requests.php">Booking Requests</a>
         <a href="booking-history.php">Booking history</a>
