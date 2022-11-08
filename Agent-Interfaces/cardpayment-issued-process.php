@@ -16,12 +16,12 @@ $result = mysqli_query($conn, $sql);
 
 if($result = mysqli_query($conn, $sql)){ 
  
-    header("Location: payments-prompt.php");
+    header("Location: card-payments-popup.php");
              
 
                 } 
 else{
-    echo "error";
+    header('error-popup.php');
 }
  
 

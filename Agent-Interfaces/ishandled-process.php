@@ -16,12 +16,12 @@ $result = mysqli_query($conn, $sql);
 
 if($result = mysqli_query($conn, $sql)){ 
  
-    header("Location: booking-requests-prompt.php");
+    header("Location: edit-bookRequest.php");
              
 
                 } 
 else{
-    echo "error";
+    header("Location: error-popup.php");
 }
  
 
