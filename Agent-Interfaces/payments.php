@@ -26,7 +26,7 @@
     
       <div class="side_navbar">
         <a href="agentHome.php">Home</a>
-        <a href="clients-prompt.php">Your Clients</a>
+        <a href="clients-prompt.php">Clients</a>
         <a href="make-booking.php">Make Booking</a>
         <a href="booking-requests-prompt.php">Booking Requests</a>
         <a href="booking-history-prompt.php">Booking history</a>
@@ -50,6 +50,7 @@
                     <th>Accomodation Code</th>
                     <th>Payment Date</th>
                     <th>Issued</th>
+                    <th>Edit</th>
                 </tr>
 
                 <?php
@@ -69,6 +70,7 @@
                     <td><?php echo $value['confirmation_code'] ?></td>
                     <td><?php echo $value['payment_date'] ?></td>
                     <td><?php echo $value['issued'] ?></td>
+                    <td><button>Edit</button></td>
                 </tr>
                 <?php
                   }
@@ -81,14 +83,12 @@
         <div class="table">
             <table>
                 <tr>
+                    <th>Payment_id</th>
                     <th>Client Code</th>
-                    <th>Agent Code</th>
-                    <th>Flight Total</th>
-                    <th>Accomodation Total</th>
-                    <th>Transportation Total</th>
-                    <th>Service Total</th>
-                    <th>Service Charge</th>
-                    <th>Subtotal</th>
+                    <th>Card owner</th>
+                    <th>Payment date</th>
+                    <th>Issued</th>
+                    <th>Edit</th>
                 </tr>
 
                 <?php
@@ -108,6 +108,7 @@
                     <td><?php echo $value['card_owner'] ?></td>
                     <td><?php echo $value['payment_date'] ?></td>
                     <td><?php echo $value['issued'] ?></td>
+                    <td><button>Edit</button></td>
                 </tr>
                 <?php
                   }
