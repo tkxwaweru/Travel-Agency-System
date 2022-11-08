@@ -7,6 +7,7 @@
   
   <title>Make Booking</title>
   <link rel="stylesheet" href="make-booking.css">
+ 
   
   <!-- Font Awesome Cdn Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
@@ -93,8 +94,21 @@
     background-color: #aec6cf;
     text-align: center;">
             </form>
-        </div>
             
+        </div>
+
+        <div class="form-box">
+        <form action="" method="POST">
+            <h3>Enter Your Client Code</h3><br>
+            <input type="text" name="client_code" id="input-text"><br>
+            <input type="submit" value="Submit" id="button" style=
+    "width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #aec6cf;
+    text-align: center;"> <br><br>
+        </form>
+      </div>
     </div>
 
     </div>
