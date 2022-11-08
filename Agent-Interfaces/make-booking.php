@@ -98,8 +98,8 @@
         </div>
 
         <div class="form-box">
-        <form action="" method="POST">
-            <h3>Enter Your Client Code</h3><br>
+        <form action="view-one-client.php" method="POST">
+            <h3>Enter Client Code</h3><br>
             <input type="text" name="client_code" id="input-text"><br>
             <input type="submit" value="Submit" id="button" style=
     "width: 100px;
