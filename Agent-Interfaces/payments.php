@@ -46,8 +46,7 @@
                 <tr>
                     <th>Payment ID</th>
                     <th>Client Code</th>
-                    <th>Confirmation</th>
-                    <th>Accomodation Code</th>
+                    <th>Confirmation code</th>
                     <th>Payment Date</th>
                     <th>Issued</th>
                     <th>Edit</th>
@@ -70,7 +69,15 @@
                     <td><?php echo $value['confirmation_code'] ?></td>
                     <td><?php echo $value['payment_date'] ?></td>
                     <td><?php echo $value['issued'] ?></td>
-                    <td><button>Edit</button></td>
+                    <td><?php 
+
+                          echo "<div class='wrapper'> 
+                              <form action='payment-issued.php' method='POST'>
+                              <input type='hidden' name='payment_id' value=".$value['payment_id']." />  
+                              <button type='Submit' class='button'>Update </button>
+                              </form> 
+                              </div>"
+                          ?></td>
                 </tr>
                 <?php
                   }
@@ -108,7 +115,15 @@
                     <td><?php echo $value['card_owner'] ?></td>
                     <td><?php echo $value['payment_date'] ?></td>
                     <td><?php echo $value['issued'] ?></td>
-                    <td><button>Edit</button></td>
+                    <td><?php 
+
+                          echo "<div class='wrapper'> 
+                              <form action='cardpayment-issued.php' method='POST'>
+                              <input type='hidden' name='payment_id' value=".$value['payment_id']." />  
+                              <button type='Submit' class='button'>Update </button>
+                              </form> 
+                              </div>"
+                          ?></td>
                 </tr>
                 <?php
                   }
