@@ -1,15 +1,12 @@
-/*table, tr, th{
-    border: 1px solid black; 
-    border-collapse:collapse;
-}
-tr:nth-child(even){
-    background-color: gray;
-}*/
-/*@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Mr+Dafoe&display=swap');*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-* {
-    font-family: 'Kalam';
-   
+*{
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 .form-box{

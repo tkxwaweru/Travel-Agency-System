@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Booking Requests</title>
-  <link rel="stylesheet" href="agentHome.css" />
+  <link rel="stylesheet" href="booking-request.css" />
   <link rel="stylesheet" href="clients.css">
   <!-- Font Awesome Cdn Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
