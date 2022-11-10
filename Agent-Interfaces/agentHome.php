@@ -39,10 +39,9 @@
     </nav>
 
     <div class="main-body">
-      <h2>Home</h2>
       <div class="promo_card">
-        <h1><?php  echo $_SESSION['agent_email'];  ?></h1>
-       
+            <p>ALL-IN-ONE BOOKING SOFTWARE</p>
+            <P>FOR TOURS AND ACTIVIES</P>
       </div>
     </div>
     </div>
