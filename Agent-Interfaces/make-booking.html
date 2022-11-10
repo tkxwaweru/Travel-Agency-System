@@ -3,15 +3,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="make-booking.css">
   
   <title>Make Booking</title>
-  <link rel="stylesheet" href="make-booking.css">
- 
-  
-  <!-- Font Awesome Cdn Link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-  
 </head>
 <body>
   <header class="header">
@@ -72,10 +66,10 @@
                 <input type="text" id="input-text" name="destination" placeholder="Destination" style="width: 100%;"><br>
                 
                 <label for="dDate" style="width: 20%; padding-right: 19%; color: gray;">Depart Date</label>
-                <input type="date" id="input-text" name="dDate" style="width: 60%"><br>
+                <input type="date" id="input-text" name="dDate" style="width: 55%"><br>
 
                 <label for="rDate" style="width: 20%; padding-right: 19%; color: gray;">Return Date</label>
-                <input type="date" id="input-text" name="rDate" style="width: 60%"><br>
+                <input type="date" id="input-text" name="rDate" style="width: 56%"><br>
                
                 <input type="text" id="input-text" name="airline" placeholder="Flight Airline" style="width: 100%;"><br>
                

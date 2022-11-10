@@ -11,7 +11,7 @@
 
 .invoice{
     position:absolute;
-    top:80%;
+    top:90%;
     left:58%;
     transform:translate(-50%,-50%);
     background-color: white;
@@ -71,7 +71,6 @@ h4{
     border-radius: 10px;
     opacity: 0;
     transition: 0.5s;
-    font-family: 'Akshar', sans-serif;
 }
 .layer:hover h1{
     bottom: 49%;
@@ -299,11 +298,6 @@ input[type=submit]:hover {
 }
 
 /*------------------------------------------client info form---------------------------------------*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-* {
-    font-family: 'Kalam';
-   
-}
 
 .form-box{
     position:absolute;
