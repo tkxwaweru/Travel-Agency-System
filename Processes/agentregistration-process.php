@@ -12,7 +12,9 @@ $sql= "INSERT INTO `agents`(`agent_fname`, `agent_lname`, `agent_phonenumber`, `
 
 
 if (mysqli_query($conn,$sql)) {
- echo "Agent added Successful.";
-}else{echo "Error: Record not added".mysqli_error($conn);}
+    header("location: ../Admin-Interface/add_agent_popup.php");
+}else{echo "Error:".mysqli_error($conn);
+    header("location: ../Admin-Interface/add_agent_failpop.php");
+}
 
 ?>

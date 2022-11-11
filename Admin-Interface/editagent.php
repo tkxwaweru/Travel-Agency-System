@@ -24,10 +24,7 @@ $result = mysqli_query($conn, $sql);
 
         <input type='hidden' name='hiddenagent_id' value=".$agent_id." /> 
 
-        <p>agent_id:</p> 
 
-        <input type='text' name='agent_id' value=".$data['agent_id']." /> 
-        
         <p>Code:</p> 
 
         <input type='text' name='agent_code' value=".$data['agent_code']." /> 

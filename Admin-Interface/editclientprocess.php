@@ -34,11 +34,7 @@ $result = mysqli_query($conn, $sql);
 
 if($result = mysqli_query($conn, $sql)){ 
 
-    echo "<p> Client info updated Successfully.</p>"; 
-    header("Location: view_client_test.php");
-             
-
-                } 
+    header("Location: view_client_popup.php"); } 
 else{
     echo "error";
 }

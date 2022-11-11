@@ -26,10 +26,6 @@ $result = mysqli_query($conn, $sql);
 
         <input type='hidden' name='hiddenclient_id' value=".$client_id." /> 
 
-        <p>client_id:</p> 
-
-        <input type='text' name='client_id' value=".$data['client_id']." /> 
-
         <p>First Name:</p> 
 
         <input type='text' name='client_fname' value=".$data['client_fname']." /> 
@@ -60,9 +56,6 @@ $result = mysqli_query($conn, $sql);
 
         <p>Agent Assigned</p>
         <input type='text' name='agent_assigned' value=".$data['agent_assigned']." /> 
-
-        <p>Agent Code</p>
-        <input type='text' name='agent_code' value=".$data['agent_code']." /> 
 
         <button type='submit' class='register-button'>Save</button> 
 

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +9,7 @@
 </head>
 <body>
   <header class="header">
-    <img src="Logo.png" alt="" width="80px" height="60px">
+   <!-- <img src="Logo.png" alt="" width="80px" height="60px">-->
     <div class="title">
       <span>Dashboard</span>
     </div>
@@ -25,9 +24,7 @@
     <nav>
       <div class="side_navbar">
         <a href="Admin_test.php">Home</a>
-        <a href="add_admin_test.php">Add Admin</a>
         <a href="add_agent_test.php">Add Agent</a>
-        <a href="view_admin_test.php">View Admin</a>
         <a class="active" href="#">View Agent</a>
         <a href="view_client_test.php">View Client</a>
         <a class="log-out-button" href="admin-login.php">Log out</a>
@@ -35,18 +32,14 @@
     </nav>
 
     <div class="main-body">
-    <div class="filter">
-        </div>
         <table>
             <th>
-                <th>Agent ID</th>
                 <th>Code</th>
                 <th>First Name</th>
                 <th>Last Name</th>
                 <th>Phone Number</th>
                 <th>Email</th>    
                 <th>Update</th>
-                <th>Delete</th>
             </th>
 
             <tbody>
@@ -55,7 +48,6 @@
                     foreach ($test as $key => $value){
                 ?>
                 <tr>
-                    <td><?php echo $value["agent_id"] ?></td>
                     <td><?php echo $value["agent_code"] ?></td>
                     <td><?php echo $value["agent_fname"] ?></td>
                     <td><?php echo $value["agent_lname"] ?></td>
@@ -91,7 +83,6 @@
 
                     ?></td>   
                     
-                    <td><a href="deleteagent.php"?delete="<?php $value["agent_id"] ?>"> <input type='checkbox' > </a></td>
                     
                 </tr>
                 <?php }

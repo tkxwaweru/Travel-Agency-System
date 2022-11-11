@@ -25,12 +25,6 @@ $result = mysqli_query($conn, $sql);
 
 
 if($result = mysqli_query($conn, $sql)){ 
-
-    echo "<p> Agent info updated Successfully.</p>";
-    header("Location: view_agent_test.php");
-
-                } 
-
- 
+    header("Location: view_agent_popup.php");} 
 
 ?> 
