@@ -59,27 +59,27 @@
           
             <form action="../Processes/make-booking-process.php" method="post">
                 
-                <input type="text" id="input-text" name="client_code" placeholder="Client Code" style="width: 100%;"><br>
+                <input type="text" id="input-text" name="client_code" placeholder="Client Code" style="width: 100%;" required><br>
 
-                <input type="text" id="input-text" name="origin" placeholder="Origin" style="width: 100%;"><br>
+                <input type="text" id="input-text" name="origin" placeholder="Origin" style="width: 100%;" required><br>
 
-                <input type="text" id="input-text" name="destination" placeholder="Destination" style="width: 100%;"><br>
+                <input type="text" id="input-text" name="destination" placeholder="Destination" style="width: 100%;" required><br>
                 
                 <label for="dDate" style="width: 20%; padding-right: 19%; color: gray;">Depart Date</label>
-                <input type="date" id="input-text" name="dDate" style="width: 55%"><br>
+                <input type="date" id="input-text" name="dDate" style="width: 55%" required><br>
 
                 <label for="rDate" style="width: 20%; padding-right: 19%; color: gray;">Return Date</label>
-                <input type="date" id="input-text" name="rDate" style="width: 56%"><br>
+                <input type="date" id="input-text" name="rDate" style="width: 56%" required><br>
                
-                <input type="text" id="input-text" name="airline" placeholder="Flight Airline" style="width: 100%;"><br>
+                <input type="text" id="input-text" name="airline" placeholder="Flight Airline" style="width: 100%;" required><br>
                
-                <input type="text" id="input-text" name="transport" placeholder="Transportion" style="width: 100%;"><br>
+                <input type="text" id="input-text" name="transport" placeholder="Transportion" style="width: 100%;" required><br>
               
-                <input type="text" id="input-text" name="accomodation" placeholder="Accomodation" style="width: 100%;"><br>
+                <input type="text" id="input-text" name="accomodation" placeholder="Accomodation" style="width: 100%;" required><br>
 
-                <input type="text" id="input-text" name="agent_code" placeholder="Agent Code" style="width: 100%;"><br>
+                <input type="text" id="input-text" name="agent_code" placeholder="Agent Code" style="width: 100%;" required><br>
                 
-                <input type="number" id="input-text" name="total_cost" placeholder="Total Cost" style="width: 100%;"><br><br><br>
+                <input type="number" id="input-text" name="total_cost" placeholder="Total Cost" style="width: 100%;" required><br><br><br>
 
                 <input type="submit" name="make-booking"  value="Make Booking" id="button" style=
     "width: 100px;
@@ -94,7 +94,7 @@
         <div class="form-box">
         <form action="view-one-client.php" method="POST">
             <h3>Enter Client Code</h3><br>
-            <input type="text" name="client_code" id="input-text"><br>
+            <input type="text" name="client_code" id="input-text" required><br>
             <input type="submit" value="Submit" id="button" style=
     "width: 100px;
     padding: 10px;
