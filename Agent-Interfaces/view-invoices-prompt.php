@@ -42,7 +42,7 @@
       <div class="form-box">
         <form action="view-invoices.php" method="POST">
             <h3>Enter Your Agent Code</h3><br>
-            <input type="text" name="agent_code" id="input-text"><br>
+            <input type="text" name="agent_code" id="input-text" required><br>
             <input type="submit" value="Submit" class="button"> <br><br>
         </form>
       </div>
