@@ -18,7 +18,7 @@
 
     if (mysqli_query($conn,$sql)) {
 
-    header("location: ../Agent-Interfaces/invoice.php");
+    header("location: ../Agent-Interfaces/invoice-popup.php");
    
    }else{echo "Error: Record not added".mysqli_error($conn);}
 

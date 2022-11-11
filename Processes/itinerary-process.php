@@ -14,7 +14,7 @@
 
     if (mysqli_query($conn,$sql)) {
 
-    header("location: ../Agent-Interfaces/itinerary.php ?$$ SUCCESSFUL");
+    header("location: ../Agent-Interfaces/itinerary-popup.php");
    
    }else{echo "Error: Record not added".mysqli_error($conn);}
 

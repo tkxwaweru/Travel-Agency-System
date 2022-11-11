@@ -1,15 +1,6 @@
-/*Main CSS
-1. #da9970 - nude brown
-2. #ffcc66 - cream
-3. #66cdaa - sea blue
-4. #23aeba - turquiose
-5. #295367 - dull blue
-6. #800000 - dull maroon
-7. #2e8b57 - sea green*/
 
-/*Login Signup Page*/
 
-  /*  import google fonts */
+/*  import google fonts */
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
   *{
     margin: 0;
@@ -18,8 +9,16 @@
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
-    /*font-family: "Poppins", sans-serif;*/
+    font-family: "Poppins", sans-serif;
   }
+  p{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 25px;
+  }
+
   body{
     background:  #aec6cf;
   }
@@ -84,7 +83,7 @@
   }
   .side_navbar .active{
     background-color: #d5e5ff;
-    color: white;
+    color: black;
   }
   
   /*-------------------------------------------Main Body Section---------------------------------------*/
@@ -93,12 +92,14 @@
     padding: 1rem;
   }
   .promo_card{
+    background-image: linear-gradient(rgb(235, 235, 235), #d5e5ff), url(../Index/Images/agentHomeBg.jpg);
     width: 100%;
-    color: black;
+    height: 200px;
     margin-top: 10px;
     border-radius: 8px;
     padding: 0.5rem 1rem 1rem 3rem;
-    background: white;
+    background-size: contain;
+    color: black;
   }
   .promo_card h1, .promo_card span, button{
     margin: 10px;

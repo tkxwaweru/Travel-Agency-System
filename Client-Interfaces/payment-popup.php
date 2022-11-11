@@ -10,13 +10,13 @@
       <div class="wrapper">
          <div class="title-text">
             <div class="title">
-              Payment information submitted
+              Payment information verified
             </div>
          </div>
          <div class="form-container">
             <div class="form-inner">
                   <div class="field">
-                     <p>Your payment details have been submitted</p>
+                     <p>Your payment details have been successfully verified</p>
                   </div>
 
                   <div class="button">

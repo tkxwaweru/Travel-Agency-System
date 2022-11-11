@@ -26,7 +26,7 @@
     
       <div class="side_navbar">
         <a href="agentHome.php">Home</a>
-        <a class="active" href="clients-prompt.php">Clients</a>
+        <a class="active" href="clients-prompt.php">Your Clients</a>
         <a href="make-booking.php">Make Booking</a>
         <a href="booking-requests-prompt.php">Booking Requests</a>
         <a href="booking-history-prompt.php">Booking history</a>
@@ -42,7 +42,7 @@
       <div class="form-box">
         <form action="clients.php" method="POST">
             <h3>Enter Your Agent Code</h3><br>
-            <input type="text" name="agent_code" id="input-text"><br>
+            <input type="text" name="agent_code" id="input-text" required><br>
             <input type="submit" value="Submit" class="button"> <br><br>
         </form>
       </div>

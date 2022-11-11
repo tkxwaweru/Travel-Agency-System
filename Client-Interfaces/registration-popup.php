@@ -16,7 +16,7 @@
          <div class="form-container">
             <div class="form-inner">
                   <div class="field">
-                     <p>You have successfully created an account</p>
+                     <p>You have successfully created an account, an agent shall be assigned to you shortly.</p>
                   </div>
 
                   <div class="button">

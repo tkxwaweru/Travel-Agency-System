@@ -3,14 +3,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  
-  <title>Make Booking</title>
   <link rel="stylesheet" href="make-booking.css">
   
-  <!-- Font Awesome Cdn Link -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-  
+  <title>Make Booking</title>
 </head>
 <body>
   <header class="header">
@@ -28,14 +23,14 @@
     <nav>
       <div class="side_navbar">
         <a href="agentHome.php">Home</a>
-        <a href="clients-prompt.php">Clients</a>
+        <a href="clients-prompt.php"> Your Clients</a>
         <a class="active" href="make-booking.php">Make Booking</a> 
-        <a href="booking-requests-prompt.php">Booking Requests</a>
+        <a href="booking-requests-prompt.php" target="_blank">Booking Requests</a>
         <a href="booking-history-prompt.php">Booking history</a>
-        <a href="itinerary.php">Itinerary</a>
-        <a  href="invoice.php">Invoice</a>
-        <a  href="view-invoice-prompt.php">View Invoices</a>
-        <a  href="payments-prompt.php">Payments</a>
+        <a href="itinerary.php" target="_blank">Itinerary</a>
+        <a href="invoice.php"target="_blank">Invoice</a>
+        <a href="view-invoice-prompt.php" >View Invoices</a>
+        <a href="payments-prompt.php">Payments</a>
         <a class="log-out-button" href="agent-login.php">Log out</a>
       </div>
     </nav>
@@ -64,27 +59,27 @@
           
             <form action="../Processes/make-booking-process.php" method="post">
                 
-                <input type="text" id="input-text" name="client_code" placeholder="Client Code" style="width: 100%;"><br>
+                <input type="text" id="input-text" name="client_code" placeholder="Client Code" style="width: 100%;" required><br>
 
-                <input type="text" id="input-text" name="origin" placeholder="Origin" style="width: 100%;"><br>
+                <input type="text" id="input-text" name="origin" placeholder="Origin" style="width: 100%;" required><br>
 
-                <input type="text" id="input-text" name="destination" placeholder="Destination" style="width: 100%;"><br>
+                <input type="text" id="input-text" name="destination" placeholder="Destination" style="width: 100%;" required><br>
                 
                 <label for="dDate" style="width: 20%; padding-right: 19%; color: gray;">Depart Date</label>
-                <input type="date" id="input-text" name="dDate" style="width: 60%"><br>
+                <input type="date" id="input-text" name="dDate" style="width: 55%" required><br>
 
                 <label for="rDate" style="width: 20%; padding-right: 19%; color: gray;">Return Date</label>
-                <input type="date" id="input-text" name="rDate" style="width: 60%"><br>
+                <input type="date" id="input-text" name="rDate" style="width: 56%" required><br>
                
-                <input type="text" id="input-text" name="airline" placeholder="Flight Airline" style="width: 100%;"><br>
+                <input type="text" id="input-text" name="airline" placeholder="Flight Airline" style="width: 100%;" required><br>
                
-                <input type="text" id="input-text" name="transport" placeholder="Transportion" style="width: 100%;"><br>
+                <input type="text" id="input-text" name="transport" placeholder="Transportion" style="width: 100%;" required><br>
               
-                <input type="text" id="input-text" name="accomodation" placeholder="Accomodation" style="width: 100%;"><br>
+                <input type="text" id="input-text" name="accomodation" placeholder="Accomodation" style="width: 100%;" required><br>
 
-                <input type="text" id="input-text" name="agent_code" placeholder="Agent Code" style="width: 100%;"><br>
+                <input type="text" id="input-text" name="agent_code" placeholder="Agent Code" style="width: 100%;" required><br>
                 
-                <input type="number" id="input-text" name="total_cost" placeholder="Total Cost" style="width: 100%;"><br><br><br>
+                <input type="number" id="input-text" name="total_cost" placeholder="Total Cost" style="width: 100%;" required><br><br><br>
 
                 <input type="submit" name="make-booking"  value="Make Booking" id="button" style=
     "width: 100px;
@@ -93,8 +88,21 @@
     background-color: #aec6cf;
     text-align: center;">
             </form>
-        </div>
             
+        </div>
+
+        <div class="form-box">
+        <form action="view-one-client.php" method="POST">
+            <h3>Enter Client Code</h3><br>
+            <input type="text" name="client_code" id="input-text" required><br>
+            <input type="submit" value="Submit" id="button" style=
+    "width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #aec6cf;
+    text-align: center;"> <br><br>
+        </form>
+      </div>
     </div>
 
     </div>

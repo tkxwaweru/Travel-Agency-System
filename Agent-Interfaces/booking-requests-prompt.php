@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Booking Requests</title>
-  <link rel="stylesheet" href="agentHome.css" />
+  <link rel="stylesheet" href="booking-request.css" />
   <link rel="stylesheet" href="clients-prompt.css">
   <!-- Font Awesome Cdn Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
@@ -26,7 +26,7 @@
     
       <div class="side_navbar">
         <a href="agentHome.php">Home</a>
-        <a href="clients-prompt.php">Clients</a>
+        <a href="clients-prompt.php">Your Clients</a>
         <a href="make-booking.php">Make Booking</a>
         <a class="active" href="booking-requests-prompt.php">Booking Requests</a>
         <a href="booking-history-prompt.php">Booking history</a>
@@ -42,7 +42,7 @@
       <div class="form-box">
         <form action="booking-requests.php" method="post">
             <h3>Enter Your Agent Code</h3><br>
-            <input type="text" name="agent_code" id="input-text"><br>
+            <input type="text" name="agent_code" id="input-text" required><br>
             <input type="submit" value="Submit" class="button"> <br><br>
         </form>
       </div>

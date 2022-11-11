@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Booking Requests</title>
-  <link rel="stylesheet" href="agentHome.css" />
+  <link rel="stylesheet" href="booking-request.css" />
   <link rel="stylesheet" href="clients.css">
   <!-- Font Awesome Cdn Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
@@ -39,7 +39,7 @@
     </nav>
 
     <div class="main-body">
-      <h2>Assigned Clients</h2><br><br>
+      <h2>Booking Requests</h2><br><br>
         <div class="table">
             <table>
                 <tr>
@@ -67,7 +67,7 @@
                   require('../Processes/DBCONNECT.php');
                   $agent_code = $_POST['agent_code'];
 
-                  $sql = "SELECT * FROM booking_requests WHERE booking_requests.agent_code ='$agent_code'";
+                  $sql = "SELECT * FROM booking_requests WHERE booking_requests.agent_code ='$agent_code' AND is_handled ='0'";
 
                   $result = mysqli_query($conn, $sql);
                   $test = mysqli_fetch_all($result, MYSQLI_ASSOC);
@@ -90,6 +90,17 @@
                     <td><?php echo $value['transportation_description'] ?></td>
                     <td><?php echo $value['agent_code'] ?></td>
                     <td><?php echo $value['is_handled'] ?></td>
+                    <td><?php 
+
+                          echo "<div class='wrapper'> 
+                              <form action='ishandled.php' method='POST'>
+                              <input type='hidden' name='booking_request_id' value=".$value['booking_request_id']." /> 
+                              <button type='Submit' class='button'>Update </button>
+                              </form> 
+                              </div>"
+                          ?></td>
+                    
+                    
                     
                   
                     

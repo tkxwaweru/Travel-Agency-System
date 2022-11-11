@@ -26,6 +26,7 @@
       <div class="side_navbar">
         <a href="client-dashboard-home.php">Home</a>
         <a href="share-experiences.php">Share experiences</a>
+        <a href="card-registration.php">Card registration</a>
         <a href="booking-request.php">Booking requests</a>
         <a class="active" href="#">Booking history</a>
         <a href="invoice-prompt.php">Invoices</a>

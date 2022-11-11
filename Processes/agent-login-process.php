@@ -19,7 +19,7 @@ if(isset($_POST['login'])){
         header("location:..\Agent-Interfaces\agentHome.php");
     }
     else{
-        header("location:..\Agent-Interfaces\agent-login.php?&&&incorrect details");
+        header("location:..\Agent-Interfaces\invalid-login");
         
     }
 }

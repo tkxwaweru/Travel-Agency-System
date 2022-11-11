@@ -10,7 +10,7 @@
       <div class="wrapper">
          <div class="title-text">
             <div class="title">
-              Request received
+              Request received!
             </div>
          </div>
          <div class="form-container">

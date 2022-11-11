@@ -1,9 +1,12 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
+  *{
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
 .registration-background{
   position: relative;
   width: 100%;
@@ -45,7 +48,7 @@
   width: 50%;
 } 
 .registration-background .registration-form .form-content h2{
-  color:  #a9a9a9;
+  color:  #5a5a5a;
   font-size: 50px;
   font-weight: 600;
   font-size: 1.5em;
@@ -59,7 +62,7 @@
   font-size: 16px;
   margin-top: 5px;
   display: inline-block;
-  color: #a9a9a9;
+  color: #5a5a5a;
   font-weight: 300;
 } 
 .registration-background .registration-form .form-content .input input{
@@ -67,7 +70,7 @@
   padding: 10px 20px;
   outline: none;
   font-weight: 400;
-  border: 1px solid #a9a9a9;
+  border: 1px solid #5a5a5a;
   font-size: 16px;
   background: transparent;
   border-radius: 30px;
@@ -101,9 +104,9 @@
 } 
 .registration-background .registration-form .form-content .remember{
   margin-top: 15px;
-  color: #a9a9a9;
+  color: #5a5a5a;
 } 
 .registration-background .registration-form .form-content .input p{
-  color: #a9a9a9;
+  color: #5a5a5a;
 } 
 

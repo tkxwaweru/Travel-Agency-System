@@ -10,7 +10,7 @@
       <div class="wrapper">
          <div class="title-text">
             <div class="title">
-               Submission successful
+               Submission successful!
             </div>
          </div>
          <div class="form-container">

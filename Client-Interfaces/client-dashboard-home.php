@@ -25,6 +25,7 @@
       <div class="side_navbar">
         <a class="active" href="#">Home</a>
         <a href="share-experiences.php">Share experiences</a>
+        <a href="card-registration.php">Card registration</a>
         <a href="booking-request.php">Booking requests</a>
         <a href="booking-history-prompt.php">Booking history</a>
         <a href="invoice-prompt.php">Invoices</a>
@@ -47,7 +48,16 @@
             <li>In case you don't remember your <b>client code</b> you can use the <b>code information</b> facility on the sidebar</li>
           </ol>
         </p>
-        <p>Click an option on the sidebar to get started</p>
+        <p><b>Click an option on the sidebar to get started</b></p>
+        <br>
+        <br>
+        <br>
+        <p>Feel free to contact us:</p>
+        <ol>
+          <li>Write us an email: <b>info@discoverkenya.co.ke</b></li>
+          <li>Call us: <b>(+254)71234578</b> or <b>(+254)78524163</b></li>
+        </ol>
+        <br>
       </div>
     </div>
     </div>
