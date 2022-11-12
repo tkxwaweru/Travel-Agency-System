@@ -38,7 +38,7 @@
           <p>Here are a few tips to get you going:</p>
           <p>
             <ol>
-              <li>You are provided with a <b>Agent Email address and the access password</b></li>
+              <li>You are provided with a <b>Admin Email address: admin@discoverykenya.co.ke and the access password </b></li>
               <li>The email account contains all client feedback. </li>
             </ol>
           </p>
