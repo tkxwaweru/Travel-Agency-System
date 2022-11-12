@@ -1,20 +1,21 @@
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: beige;
+    background-color:  #fcf0d4;
 }
-.conainer-main{
+.container-main{
     width: 40%;
     margin: 0 auto;
     margin-top: 100px;
 }
 
-.conainer-main h2{
+.container-main h2{
  color: brown;
  position: relative;
  width: 23rem;
+ font-size:200 ;
 
 }
-.conainer-main h2::after{
+.container-main h2::after{
     content: "";
     position:absolute;
     bottom: 0;
@@ -22,6 +23,7 @@ body{
     width: 67px;
     height: 2px;
     background-color: brown;
+    font-size:200 ;
 }
 .container{
     width:100%;
