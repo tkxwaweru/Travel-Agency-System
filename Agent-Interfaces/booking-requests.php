@@ -92,13 +92,13 @@
                     <td><?php echo $value['is_handled'] ?></td>
                     <td><?php 
 
-                          echo "<div class='wrapper'> 
-                              <form action='ishandled.php' method='POST'>
-                              <input type='hidden' name='booking_request_id' value=".$value['booking_request_id']." /> 
-                              <button type='Submit' class='button'>Update </button>
-                              </form> 
-                              </div>"
-                          ?></td>
+                        echo "<div class='wrapper'> 
+                        <form action='ishandled.php' method='POST'>
+                        <input type='hidden' name='booking_request_id' value=".$value['booking_request_id']." />  
+                        <button type='Submit' class='button' style='background-color:#d5e5ff; padding: 5px; border-radius:10px;'>Update </button>
+                        </form> 
+                        </div>"
+                        ?></td>
                     
                     
                     

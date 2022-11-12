@@ -29,7 +29,7 @@
         <a href="booking-history-prompt.php">Booking history</a>
         <a href="itinerary.php" target="_blank">Itinerary</a>
         <a href="invoice.php"target="_blank">Invoice</a>
-        <a href="view-invoice-prompt.php" >View Invoices</a>
+        <a href="view-invoices-prompt.php" >View Invoices</a>
         <a href="payments-prompt.php">Payments</a>
         <a class="log-out-button" href="agent-login.php">Log out</a>
       </div>

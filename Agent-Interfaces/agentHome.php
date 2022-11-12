@@ -41,7 +41,7 @@
     <div class="main-body">
       <div class="promo_card">
             <p>ALL-IN-ONE BOOKING SOFTWARE</p>
-            <P>FOR TOURS AND ACTIVIES</P>
+            <P>FOR TOURS AND ACTIVITIES</P>
       </div>
     </div>
     </div>

@@ -45,7 +45,7 @@
             <h3>INVOICES</h3><br>
   <form action="../Processes/invoice-process.php" method="post">
 
-  <label for="client-code">Client Code</label>
+    <label for="client-code">Client Code</label>
     <input type="text" id="input-text" name="client-code"style="width: 100%;" required><br>
     <label for="agent-code">Agent Code</label>
     <input type="text" id="input-text" name="agent-code"style="width: 100%;" required><br>

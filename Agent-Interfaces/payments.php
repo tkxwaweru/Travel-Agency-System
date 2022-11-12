@@ -74,7 +74,7 @@
                           echo "<div class='wrapper'> 
                               <form action='payment-issued.php' method='POST'>
                               <input type='hidden' name='payment_id' value=".$value['payment_id']." />  
-                              <button type='Submit' class='button'>Update </button>
+                              <button type='Submit' class='button' style='background-color:#d5e5ff; padding: 5px; border-radius:10px;'>Update </button>
                               </form> 
                               </div>"
                           ?></td>
@@ -117,13 +117,15 @@
                     <td><?php echo $value['issued'] ?></td>
                     <td><?php 
 
-                          echo "<div class='wrapper'> 
-                              <form action='cardpayment-issued.php' method='POST'>
-                              <input type='hidden' name='payment_id' value=".$value['payment_id']." />  
-                              <button type='Submit' class='button'>Update </button>
-                              </form> 
-                              </div>"
-                          ?></td>
+                    
+
+                    echo "<div class='wrapper'> 
+                        <form action='cardpayment-issued.php' method='POST'>
+                        <input type='hidden' name='payment_id' value=".$value['payment_id']." />  
+                        <button type='Submit' class='button' style='background-color:#d5e5ff; padding: 5px; border-radius:10px;'>Update </button>
+                        </form> 
+                        </div>"
+                    ?></td>
                 </tr>
                 <?php
                   }

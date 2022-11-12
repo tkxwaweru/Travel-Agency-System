@@ -43,6 +43,7 @@
         <div class="table">
             <table>
                 <tr>
+                    <th>Invoice ID</th>
                     <th>Client Code</th>
                     <th>Agent Code</th>
                     <th>Flight Total</th>
@@ -58,7 +59,7 @@
                   require('../Processes/DBCONNECT.php');
                   $agent_code = $_POST['agent_code'];
 
-                  $sql = "SELECT invoices.client_code, invoices.agent_code, invoices.flight_total, invoices.accomodation_total, invoices.transportation_total, invoices.service_total, invoices.service_charge, invoices.subtotal FROM invoices WHERE invoices.agent_code = '$agent_code'";
+                  $sql = "SELECT invoices.issued,invoices.invoice_id, invoices.client_code, invoices.agent_code, invoices.flight_total, invoices.accomodation_total, invoices.transportation_total, invoices.service_total, invoices.service_charge, invoices.subtotal FROM invoices WHERE invoices.agent_code = '$agent_code' AND invoices.issued='0'";
                   $result = mysqli_query($conn, $sql);
                   $test = mysqli_fetch_all($result, MYSQLI_ASSOC);
                   foreach($test as $key => $value){
@@ -66,6 +67,7 @@
 
                 ?>
                 <tr>
+                    <td><?php echo $value['invoice_id'] ?></td>
                     <td><?php echo $value['client_code'] ?></td>
                     <td><?php echo $value['agent_code'] ?></td>
                     <td><?php echo $value['flight_total'] ?></td>
@@ -74,7 +76,15 @@
                     <td><?php echo $value['service_total'] ?></td>
                     <td><?php echo $value['service_charge'] ?></td>
                     <td><?php echo $value['subtotal'] ?></td>
-                    <td><button>Update</button></td>
+                    <td><?php
+                        
+                      echo "<div class='wrapper'> 
+                              <form action='invoice-issued.php' method='POST'>
+                              <input type='hidden' name='invoice_id' value=".$value['invoice_id']." />  
+                              <button type='Submit' class='button' style='background-color:#d5e5ff; padding: 5px; border-radius:10px;'>Update </button>
+                              </form> 
+                              </div>"
+                          ?></td>
                 </tr>
                 <?php
                   }

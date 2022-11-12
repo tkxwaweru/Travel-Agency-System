@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -34,8 +31,8 @@
         <a href="booking-history-prompt.php">Booking history</a>
         <a  href="itinerary.php">Itinerary</a>
         <a  href="invoice.php">Invoice</a>
-        <a  href="view-invoices-prompt.php">View Invoices</a>
-        <a  class="active" href="payments-prompt.php">Payments</a>
+        <a class="active" href="view-invoices-prompt.php">View Invoices</a>
+        <a  href="payments-prompt.php">Payments</a>
         <a class="log-out-button" href="agent-login.php">Log out</a>
       </div>
     </nav>
@@ -45,15 +42,16 @@
       
 <div class="top">
 <div class="invoice" id="invoice-form">
-<?php 
+            <h3>INVOICES</h3><br>
+            <?php 
 
-$paymentID = $_POST['payment_id'];
+$invoice_id = $_POST['invoice_id'];
  
  
 
 require("../Processes/DBCONNECT.php");
 
-$sql = "SELECT * FROM mpesa_payments where payment_id='$paymentID'"; 
+$sql = "SELECT * FROM invoices where invoice_id='$invoice_id'"; 
 
 $result = mysqli_query($conn, $sql); 
 
@@ -68,35 +66,32 @@ $result = mysqli_query($conn, $sql);
             
         "
 
-        <form action='payment-issued-process.php' method='POST'> 
+        <form action='invoice-issued-process.php' method='POST'> 
 
+        <label for='invoice_id'>Invoice ID</label>
 
-        <p>Payment ID:</p> 
+        <input type='text' name='invoice_id' value=".$data['invoice_id']." readonly/> 
 
-        <input type='text' name='payment_id' value=".$data['payment_id']." readonly/> 
-
-        <p>Client Code:</p> 
+        <label for='client_code'>Client Code</label> 
 
         <input type='text' name='client_code' value=".$data['client_code']." readonly/> 
 
-        <p>CONFIRMATION CODE:</p> 
+        <label for='agent_code'>Agent Code</label>
 
-        <input type='text' name='confirmation_code' value=".$data['confirmation_code']." readonly/> 
+        <input type='text' name='agent_code' value=".$data['agent_code']." readonly/> 
 
-        <p>PAYMENT DATE:</p> 
+        <label for='subtotal'>Subtotal</label> 
 
-        <input type='text' name='payment_date' value=".$data['payment_date']." readonly/> 
+        <input type='text' name='agent_code' value=".$data['subtotal']." readonly/> 
 
-        <p>ISSUED:</p> 
+        <label for='issued'>Issued</label>
 
-        <input type='text' name='issued' value=".$data['issued']." /> 
+        <input type='text' name='issued' value=".$data['issued']." /> <br>
 
 
-        <button type='submit' style='background-color:#d5e5ff; padding: 10px; width:100px; border-radius:10px;'>Save</button> 
+        <button type='submit' class='register-button' style='background-color:#d5e5ff; padding: 10px; width:100px; border-radius:10px;'>Save</button> 
 
-        </form> 
-
-        "; 
+        </form> "; 
 
  
 

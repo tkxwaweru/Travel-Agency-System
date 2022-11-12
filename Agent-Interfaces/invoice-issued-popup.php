@@ -10,17 +10,17 @@
       <div class="wrapper">
          <div class="title-text">
             <div class="title">
-              Booking Request Information
+              Invoice Update Information
             </div>
          </div>
          <div class="form-container">
             <div class="form-inner">
                   <div class="field">
-                     <p>Booking request updated succesfully!</p>
+                     <p>Invoice updated succesfully!</p>
                   </div>
 
                   <div class="button">
-                     <a href="booking-requests-prompt.php">Close</a>
+                     <a href="view-invoices-prompt.php">Close</a>
                   </div>
             </div>
          </div>
