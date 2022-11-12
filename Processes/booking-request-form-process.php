@@ -18,6 +18,6 @@ $sql= "INSERT INTO booking_requests (`client_code`, `origin`, `destination`, `tr
 
 if (mysqli_query($conn,$sql)) {
  header("location: ../Client-Interfaces/booking-request-popup.php");
-}else{echo "Error: Record not added".mysqli_error($conn);}
+}else{header("location: ../Client-Interfaces/booking-request-failure-popup.php");}
 
 ?>
