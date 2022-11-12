@@ -10,6 +10,6 @@ $sql= "INSERT INTO mpesa_payments (`client_code`, `confirmation_code` ) VALUES (
 
 if (mysqli_query($conn,$sql)) {
  header("location: ../Client-Interfaces/payment-popup.php");
-}else{echo "Error: Record not added".mysqli_error($conn);}
+}else{header("location: ../Client-Interfaces/mpesa-failure-popup.php");}
 
 ?>
