@@ -42,7 +42,7 @@
       <div class="payment-container">
         <h1>Enter your card details below:</h1>
         <br>
-        <form action="../Processes/card-process.php" method="post">
+        <form action="../Processes/cardregistration-process.php" method="post">
           <div class="first-row">
               <div class="owner">
                   <h3>Client code</h3>
