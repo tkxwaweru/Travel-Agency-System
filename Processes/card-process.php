@@ -15,6 +15,6 @@ $sql= "INSERT INTO card_payments (`client_code`, `card_owner`,`card_number`, `cv
 
 if (mysqli_query($conn,$sql)) {
  header("location: ../Client-Interfaces/payment-popup.php");
-}else{echo "Error: Record not added".mysqli_error($conn);}
+}header("location: ../Client-Interfaces/card-failure-popup.php");}
 
 ?>
