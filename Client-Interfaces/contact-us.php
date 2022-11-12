@@ -32,8 +32,8 @@
                     <div class="icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
                     <div class="text">
                         <h3>Phone</h3>
-                        <p> +254712345678<br>
-                            +254785241963
+                        <p> (+254)712345678<br>
+                            (+254)785241963
                         </p>
                     </div>
                 </div>
@@ -42,14 +42,14 @@
                     <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
                     <div class="text">
                         <h3>Email</h3>
-                        <p>Discover.kenya@gmail.com</p>
+                        <p>info@discoverkenya.co.ke</p>
                     </div>
                 </div>
 
 
                 </div>
                 <div class="contactForm">
-                    <form>
+                    <form action="" method="">
                         <h2>Send message</h2>
                         <div class="inputBox">
                             <input type="text" name="" required="required">
