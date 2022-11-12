@@ -16,7 +16,7 @@
              header("location: ../Client-Interfaces/experiences-popup.php");
            
         }else{
-            echo "Error: Experience not captured".mysqli_error($conn);
+            header("location: ../Client-Interfaces/experiences-failure-popup.php");
         }
 
         }
