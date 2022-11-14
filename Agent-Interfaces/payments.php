@@ -86,52 +86,6 @@
 
             <br><br><br>
 
-            <h2>Card Payments</h2><br><br>
-        <div class="table">
-            <table>
-                <tr>
-                    <th>Payment_id</th>
-                    <th>Client Code</th>
-                    <th>Card owner</th>
-                    <th>Payment date</th>
-                    <th>Issued</th>
-                    <th>Edit</th>
-                </tr>
-
-                <?php
-                  require('../Processes/DBCONNECT.php');
-                  $client_code = $_POST['client_code'];
-
-                  $sql = "SELECT card_payments.payment_id, card_payments.client_code, card_payments.card_owner, card_payments.payment_date, card_payments.issued FROM card_payments WHERE card_payments.client_code = '$client_code' AND card_payments.issued = '0'";
-                  $result = mysqli_query($conn, $sql);
-                  $test = mysqli_fetch_all($result, MYSQLI_ASSOC);
-                  foreach($test as $key => $value){
-                  
-
-                ?>
-                <tr>
-                    <td><?php echo $value['payment_id'] ?></td>
-                    <td><?php echo $value['client_code'] ?></td>
-                    <td><?php echo $value['card_owner'] ?></td>
-                    <td><?php echo $value['payment_date'] ?></td>
-                    <td><?php echo $value['issued'] ?></td>
-                    <td><?php 
-
-                    
-
-                    echo "<div class='wrapper'> 
-                        <form action='cardpayment-issued.php' method='POST'>
-                        <input type='hidden' name='payment_id' value=".$value['payment_id']." />  
-                        <button type='Submit' class='button' style='background-color:#d5e5ff; padding: 5px; border-radius:10px;'>Update </button>
-                        </form> 
-                        </div>"
-                    ?></td>
-                </tr>
-                <?php
-                  }
-                ?>
-            </table>
-        </div>
 
 
     </div>
