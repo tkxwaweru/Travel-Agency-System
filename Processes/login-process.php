@@ -34,7 +34,7 @@ $result = mysqli_query($conn, $sql);
 if($row = mysqli_fetch_assoc($result)){
     $password = $row['password'];
     $_SESSION['client_email'] = $client_email;
-    header('Location:../Index/index.php');
+    header('Location:../Index/index2.php');
 }else{
     echo "Incorrect Details!!";
 }
