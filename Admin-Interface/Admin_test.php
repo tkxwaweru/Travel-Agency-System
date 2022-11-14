@@ -37,10 +37,10 @@
        <h1>Welcome:</h1>
           <p>Here are a few tips to get you going:</p>
           <p>
-            <ol>
+            <ul>
               <li>You are provided with a <b>Admin Email address: admin@discoverykenya.co.ke and the access password </b></li>
               <li>The email account contains all client feedback. </li>
-            </ol>
+            </ul>
           </p>
           <p>Click an option on the sidebar to get started</p>
       </div>
