@@ -84,11 +84,21 @@
                 
                 <input type="number" id="input-text" name="total_cost" placeholder="Total Cost" style="width: 100%;" required><br><br><br>
 
-                <input type="submit" name="make-booking"  value="Make Booking" id="button" style=
-    "">
+                <input type="submit" name="make-booking"  value="Make Booking" id="button">
             </form>
-            
-        </div>
+          </div>
+
+        
+          
+          <div class="form-box" style="margin-top: 210px;">
+          <h3>Search Client Information</h3><br>
+        <form action="view-one-client.php" method="POST">
+            <h3>Enter Client Code</h3><br>
+            <input type="text" name="client_code" id="input-text" style="width: 250px;"><br>
+            <input type="submit" value="Submit" id="button"> <br><br>
+        </form>
+
+          </div>
 
         
     </div>

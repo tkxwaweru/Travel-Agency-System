@@ -164,7 +164,7 @@ nav{
   padding: 1px;
   display: flex;
   flex-direction: column;
-  height: 160vh;
+  height: 200vh;
   background: white;
 }
 .side_navbar span{
