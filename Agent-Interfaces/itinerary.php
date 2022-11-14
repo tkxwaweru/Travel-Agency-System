@@ -42,7 +42,7 @@
 <div class="top">
 <div class="invoice" id="invoice-form">
             <h3>ITINERARIES</h3><br>
-  <form action="../Processes/itinerary-process.php" method="post" enctype="multipart/form-data">
+  <form action="../Processes/itinerary-process.php" method="post">
 
     <label for="itenary id">Client Code</label>
     <input type="text" id="input-text" name="client_code"  style="width: 100%;" required><br><br>
@@ -54,12 +54,7 @@
     <input type="file" id="input_text" name="transport_voucher"style="width: 100%;" required><br><br>
     <label for="itenary id">Agent Code</label>
     <input type="text" id="input-text" name="agent_code" style="width: 100%;" required><br><br>
-    <input type="submit" value="Submit" id="button" style=
-    "width: 100px;
-    padding: 10px;
-    margin-top: 10px;
-    background-color: #aec6cf;
-    text-align: center;">
+    <input type="submit" value="Submit" id="button">
 
   </form>
 </div>
