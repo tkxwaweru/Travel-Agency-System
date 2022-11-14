@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Make Invoice</title>
    
@@ -41,6 +43,15 @@
      
       
 <div class="top">
+
+<div class="icons">
+         <a href="https://www.expedia.com" target="_blank"><button style="font-size:24px">Book Flight <i class="material-icons">flight</i></button></a>
+        
+          <a href="https://www.booking.com" target="_blank"><button style="font-size:24px">Book Hotel <i class="material-icons">hotel</i></button></a>
+          <a href="https://www.viator.com/Kenya-tours/Transfers-and-Ground-Transport/d801-g15" target="_blank"><button style="font-size:24px">Transport <i class="fa fa-automobile"></i></button></a>
+</div>
+
+
 <div class="invoice" id="invoice-form">
             <h3>INVOICES</h3><br>
   <form action="../Processes/invoice-process.php" method="post">
@@ -56,12 +67,7 @@
     <label for="transport-total">Transportation Total</label>
     <input type="number" id="input-text" name="transport-total" style="width: 100%;" required><br>
 
-    <input type="submit" value="Submit" id="button" style=
-    "width: 100px;
-    padding: 10px;
-    margin-top: 10px;
-    background-color: #aec6cf;
-    text-align: center;">
+    <input type="submit" value="Submit" id="button">
 
   </form>
 </div>

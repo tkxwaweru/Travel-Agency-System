@@ -28,6 +28,7 @@ h4{
 }
 .icons{
   display: flex;
+  margin-left: 140px;
 }
 
 
@@ -209,9 +210,10 @@ input[type=text], select, textarea {
 }
 
 a>button{
-  width: 200px;
-  margin-right: 15px;
+  width: 159px;
+  margin-right: 13px;
 }
+
 a>button:hover{
   background-color: #a3e6c0;
   cursor: pointer;

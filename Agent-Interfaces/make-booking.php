@@ -41,7 +41,7 @@
      
       <div class="make-booking">
         <div class="make-booking-title">
-          <span><h2>Make Booking</h2>
+        
         </div>
         
         <div class="icons">
@@ -58,6 +58,7 @@
       <div class="top">
         
         <div class="invoice" id="invoice-form">
+        <span><h2>Make Booking</h2><br>
           
             <form action="../Processes/make-booking-process.php" method="post">
                 
