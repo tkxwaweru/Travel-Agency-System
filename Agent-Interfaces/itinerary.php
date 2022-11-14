@@ -42,7 +42,7 @@
 <div class="top">
 <div class="invoice" id="invoice-form">
             <h3>ITINERARIES</h3><br>
-  <form action="../Processes/itinerary-process.php" method="post">
+  <form action="../Processes/itinerary-process.php" method="post" enctype="multipart/form-data">
 
     <label for="itenary id">Client Code</label>
     <input type="text" id="input-text" name="client_code"  style="width: 100%;" required><br><br>
