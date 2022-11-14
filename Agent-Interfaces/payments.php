@@ -40,7 +40,7 @@
 
     
     <div class="main-body">
-      <h2>M-Pesa Payments</h2><br><br>
+      <h2>Payments</h2><br><br>
         <div class="table">
             <table>
                 <tr>
