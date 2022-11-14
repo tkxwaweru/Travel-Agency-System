@@ -50,7 +50,7 @@ nav{
   padding: 1px;
   display: flex;
   flex-direction: column;
-  height: 125vh;
+  height: 100vh;
 }
 .side_navbar span{
   color: gray;
@@ -89,7 +89,7 @@ nav{
 .payment-container{
   margin-left: 40px;
   width: 750px;
-  height: 1080px;
+  height: 770px;
   border: 1px solid;
   background-color: white;
   padding: 40px;
