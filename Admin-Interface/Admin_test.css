@@ -77,7 +77,7 @@ nav{
 
 /*-------------------------------------------Main Body Section---------------------------------------*/
 .main-body{
-  text-align: center;
+  text-align: left;
   width: 80%;
   padding: 1rem;
 }
@@ -95,11 +95,6 @@ nav{
 .promo_card p{
   margin: 10px;
   font-size: 20px;
-}
-.promo_card ol{
-  margin-top: 10px;
-  margin-left: 16px;
-  font-size: 16px;
 }
 
 b{
