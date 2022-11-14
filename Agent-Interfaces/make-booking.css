@@ -76,28 +76,9 @@ h4{
     bottom: 49%;
     opacity: 10;
 }
-#button{
-    height: 30px;
-    background-color: #D2B48C;
-    color: black;
-    border: 1px solid;
-    border-radius: 5px;
-}
-#button:hover{
-    background-color: red;
-    color: black;
-}
-#back-button{
-    height: 30px;
-    background-color: #0e9594;
-    color: black;
-    border: 1px solid;
-    border-radius: 5px;
-}
-#back-button:hover{
-    background-color: black;
-    color: #D2B48C;
-}
+
+
+
 .dashboard-info{
     height: 50px;
     background: #bc9e7d;
@@ -165,14 +146,7 @@ body{
   margin-top: 10px;
   padding-right: 10%;
 }
-.make-booking > div > a > button{
-  background:white;
-  border: solid black 1px;
-}
-.make-booking > div > a > button:hover{
-  background-color: white;
-    color:#d5e5ff ;
-}
+
 
 .container{
   margin-top: 10px;
@@ -215,14 +189,7 @@ nav{
   background-color: #d5e5ff;
     color: black;
 }
-#button{
-  background:white;
-  border: solid black 1px;
-}
-#button:hover{
-  background-color: white;
-  color:#d5e5ff ;
-}
+
 
 /*-------------------------------------------Main Body Section---------------------------------------*/
 .main-body{
@@ -241,21 +208,26 @@ input[type=text], select, textarea {
   resize: vertical 
 }
 
-
-
-input[type=submit] {
-  background:white;
-  border: solid black 1px;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
+a>button{
+  width: 200px;
+  margin-right: 15px;
+}
+a>button:hover{
+  background-color: #a3e6c0;
   cursor: pointer;
 }
 
-
-input[type=submit]:hover {
-  background: #d5e5ff;
-  color:black;
+#button{
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #aec6cf;
+  text-align: center;
+  cursor: pointer;
+}
+#button:hover{
+  background-color: #a3e6c0;
 }
 
 
@@ -272,9 +244,7 @@ input[type=submit]:hover {
   padding: 0.5rem 1rem 1rem 3rem;
   background: #23aeba;
 }
-.promo_card h1, .promo_card span, button{
-  margin: 10px;
-}
+
 .promo_card a{
   width: 130px;
   border: 2px solid #2e8b57;

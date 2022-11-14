@@ -84,27 +84,12 @@
                 <input type="number" id="input-text" name="total_cost" placeholder="Total Cost" style="width: 100%;" required><br><br><br>
 
                 <input type="submit" name="make-booking"  value="Make Booking" id="button" style=
-    "width: 100px;
-    padding: 10px;
-    margin-top: 10px;
-    background-color: #aec6cf;
-    text-align: center;">
+    "">
             </form>
             
         </div>
 
-        <div class="form-box">
-        <form action="view-one-client.php" method="POST">
-            <h3>Enter Client Code</h3><br>
-            <input type="text" name="client_code" id="input-text" required><br>
-            <input type="submit" value="Submit" id="button" style=
-    "width: 100px;
-    padding: 10px;
-    margin-top: 10px;
-    background-color: #aec6cf;
-    text-align: center;"> <br><br>
-        </form>
-      </div>
+        
     </div>
 
     </div>
