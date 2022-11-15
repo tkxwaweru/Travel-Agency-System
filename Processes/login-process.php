@@ -36,7 +36,7 @@ if($row = mysqli_fetch_assoc($result)){
     $_SESSION['client_email'] = $client_email;
     header('Location:../Index/index2.php');
 }else{
-    echo "Incorrect Details!!";
+    header('Location:../Client-Interfaces/login-failure-popup.php');
 }
 
 }
