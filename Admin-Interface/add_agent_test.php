@@ -26,6 +26,7 @@
         <a href="Admin_test.php">Home</a>
         <a  class="active" href="#">Add Agent</a>
         <a href="view_agent_test.php">View Agent</a>
+        <a href="new_clients.php">View New Clients</a>
         <a href="view_client_test.php">View Client</a>
         <a class="log-out-button" href="admin-login.php">Log out</a>
       </div>

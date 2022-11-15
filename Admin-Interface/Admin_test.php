@@ -26,6 +26,7 @@
         <a class="active" href="#">Home</a>
         <a href="add_agent_test.php">Add Agent</a>
         <a href="view_agent_test.php">View Agent</a>
+        <a href="new_clients.php">View New Clients</a>
         <a href="view_client_test.php">View Client</a>
         <a class="log-out-button" href="admin-login.php">Log out</a>
       </div>
@@ -38,7 +39,7 @@
           <p>Here are a few tips to get you going:</p>
           <p>
             <ul>
-              <li>You are provided with a <b>Admin Email address: admin@discoverykenya.co.ke and the access password </b></li>
+              <li>You are provided with a Admin Email address: <b>admin@discoverykenya.co.ke </b> and the access password </li>
               <li>The email account contains all client feedback. </li>
             </ul>
           </p>

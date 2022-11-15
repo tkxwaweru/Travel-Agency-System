@@ -3,24 +3,24 @@
    <head>
       <meta charset="utf-8">
       <title>Notification</title>
-      <link rel="stylesheet" href="popup.css">
+      <link rel="stylesheet" href="popup-style.css">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
    <body>
       <div class="wrapper">
          <div class="title-text">
             <div class="title">
-              Edit Client
+              Edit client
             </div>
          </div>
          <div class="form-container">
             <div class="form-inner">
                   <div class="field">
-                     <p>Client details edited successfully</p>
+                     <p>Client edit process failed. Please try again.</p>
                   </div>
 
                   <div class="button">
-                     <a href="view_client_test.php">Close</a>
+                     <a href="new_clients.php">Close</a>
                   </div>
             </div>
          </div>

@@ -25,8 +25,9 @@
     <nav>
       <div class="side_navbar">
         <a href="Admin_test.php">Home</a>
-        <a href="add_client_test.php">Add client</a>
+        <a href="add_agent_test.php">Add Agent</a>
         <a href="view_agent_test.php">View Agent</a>
+        <a href="new_clients.php">View New Clients</a>
         <a class="active" href="#">View Client</a>
         <a class="log-out-button" href="admin-login.php">Log out</a>
       </div>
@@ -44,13 +45,19 @@
               <th>Code</th>
               <th>Agent Assigned</th>
               <th>Agent Code</th>
-              <th>Update</th>
           
 
           <tbody>
                   <?php
-                      require_once("clientdb.php");
-                      foreach ($test as $key => $value){
+
+                      require('../Processes/DBCONNECT.php');
+                                          
+                      $sqli="SELECT * FROM clients WHERE agent_assigned = '1' ";
+
+                      $result = mysqli_query($conn, $sqli);
+                      $test = mysqli_fetch_all($result, MYSQLI_ASSOC);
+                      foreach($test as $key => $value){
+   
                   ?>
                   <tr>
                       <td><?php echo $value["client_fname"] ?></td>
@@ -64,21 +71,6 @@
                       <td><?php echo $value["agent_assigned"] ?></td>
                       <td><?php echo $value["agent_code"] ?></td>
 
-                      <td><?php 
-
-                      echo "<div class='wrapper'> 
-
-                          <form action='editclient.php' method='POST'> 
-
-                          <input type='hidden' name='client_id' value=".$value['client_id']." /> 
-
-                          <button type='Submit' class='button'>Update </button> 
-
-                          </form> 
-
-                          </div>"
-
-                      ?></td>   
                     
                       
                   </tr>

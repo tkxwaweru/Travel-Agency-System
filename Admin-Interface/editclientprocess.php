@@ -36,7 +36,7 @@ if($result = mysqli_query($conn, $sql)){
 
     header("Location: view_client_popup.php"); } 
 else{
-    echo "error";
+    header("Location: edit_client_failpop.php");
 }
  
 
