@@ -30,7 +30,7 @@
       <div class="description">
         <h1>Experience Kenya's beauty</h1>
         <br>
-        <h2>Make a booking request and leave the rest to us.</h2>
+        <h2>Access your dashboard to make a booking request</h2>
         <br>
         <a href="../Client-Interfaces/client-dashboard-home.php">DASHBOARD</a>
       </div>
